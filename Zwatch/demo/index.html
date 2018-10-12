@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>廖宝炜</title>
+		<link rel="stylesheet" type="text/css" href="css/new_file.css"/>
+		<script type="text/javascript" src="js/jq.js" ></script>
+	
+	</head>
+	<body>
+	  <div id="d1">
+	  	<h1 id="hello">Hello,九江的同学们</h1>
+	  	<h2 id="hello2">Hello,九江的同学们</h2>
+	  	<h3 class="word">Hello,九江的同学们</h3>
+	  	<h4>Hello,九江的同学们</h4>
+	  	<button onmouseover="changeColor()" onmouseout="changeColor2()">划过改变颜色</button>
+	  	<button onclick="changeyl()">一键还原</button>
+	  	<button id="clickbtn">点击</button>
+	  	<p class="p1">
+	  		张国庆去哪了？		
+	  	</p>
+	  	<p>去<span class="p1">找小妹妹</span>了 </p>
+	  	<form action="action_page.php"method="post">
+	  		<fieldset>
+	  		<legend>我叫廖宝炜：</legend>	
+	  		firstname:<br>
+	  		<input type="text"name="firstname"value="廖宝炜">
+	  		<br>
+	  		lastname:<br>
+	  		<input type="text"name="lastname"value="炜宝廖">
+	  		<br />
+	  		<form>
+	  		<input type="radio"name="sex"value="男"checked>男 
+	  		<input type="radio" name="sex"value="女" >女
+	  	   </form>
+	  	   <br />
+	  		<input type="submit"value="提交" />
+	  	
+	  		</fieldset>
+	  		<select name="car">
+	  	 	<option value="valvo">valvo</option> 	
+	  		<option value="ss">ss</option> 
+	  		<option value="aa">aa</option> 	
+	  		<option value="bb">bb</option> 	
+	  		</select>
+	  	</form>
+	  	<script type="text/javascript">
+//	  		var a=5;
+//	  		var b=1.1;
+//	  		var c="hello";
+//	  		var d=true;
+//	  		var e="100+90*2";
+//	  		console.log(a/b);
+//	  		console.log(b+c);
+//	  		console.log(c+d);
+//	  		console.log(a+d);
+//	  		console.log(eval(e));
+	  		
+	  		function changeColor(){
+	  			document.getElementById("hello").style.color="#0000FF";
+	  			document.getElementById("hello").innerHTML="hello 你马了？"
+	  			document.body.style.backgroundColor="lemonchiffon";
+	  		}
+	  		function changeColor2(){
+	  			document.getElementById("hello").style.color="#8A2BE2";
+	  			document.getElementById("hello").innerHTML="hello";
+	  			document.body.style.backgroundColor="lightcoral";
+	  		}
+	  		function changeyl(){
+	  			document.getElementById("hello").style.color="black";
+	  			document.getElementById("hello").innerHTML="hello,九江的朋友们";
+	  			document.body.style.backgroundColor="white";
+	  		}
+	  		$("#clickbtn").click(function(){
+	  			$("#hello2").css("color","#FFFF00");
+	  			$(".word").css("font-size","4em");
+	  			
+	  		});
+	  		
+	  	</script>
+	 
+	</body>
+</html>

@@ -1,0 +1,401 @@
+  body {
+		 	margin: 0px;
+		 	padding: 0px;
+		 }
+		 /*bannana的CSS*/
+		 .About1_bannana {
+		 	position: absolute;
+		 	width: 100%;
+		 	height: 150px;
+		 	color: white;
+		 	z-index: 100;
+		 	float: left;
+		 }
+		header{
+				width: 100%;
+				height: 100px;
+				position: absolute;
+				border-bottom: 0.5px solid #999999;
+			}
+			header nav{
+				width: 100%;
+			}
+			nav ul{
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				width: 50%;
+				margin-left: 200px;
+			}
+			nav ul>li{
+				float: left;
+				color: #FFFFFF;
+				height: 100px;
+				line-height: 100px;
+				vertical-align: middle;
+				margin-right: 50px;
+				font-size: 20px;
+				
+			}
+			nav.sticky{
+				position: fixed;
+				background: #FFFFFF;
+				visibility: hidden;
+				box-shadow: 0 0 10px 1px #000000;
+			}
+			nav.sticky ul>li{
+				color: #000000;
+				height: 60px;
+				line-height: 60px;
+				vertical-align: middle;
+				font-size: 16px;
+				
+			}
+			nav.offset{
+				transform: translate(0,-100%);
+				transition: all 0.5s ease-in-out;
+			}
+			nav.scrolling{
+				visibility: visible;
+				transform: translate(0,0);
+			}
+		 .About1_bannana h1 {
+		 	float: left;
+		 	margin-left: 50px;
+		   font-size: 25px;
+		 }
+		
+		 .About1_bannana_ul {
+		 	margin: 0px;
+		 	padding: 0px;
+		 	list-style: none;
+		 	float: left;
+		 	margin-top: 25px;
+		 	margin-left: 20%;
+		 }
+		 
+		 .About1_bannana_ul li {
+		 	float: left;
+		 	padding: 5px 5px 5px 5px;
+		 }
+		 
+		 .About1_bannana_ul li a {
+		 	color: white;
+		 	text-decoration: none;
+		 	margin: 5px;
+		 	font-size: 10px;
+		 }
+		 
+		 .About1_bannana_ul li a:hover {
+		 	color: #FF0000;
+		 }
+		 
+		 .About1_bannana li:hover .About1_PAGES_ul {
+		 	display: block;
+		 }
+		  /*HOme 的CSS*/
+	     .About1_HOME_ul{
+	     	position: absolute;
+		 	list-style: none;
+		 	float: none;
+		 	margin-left: -40px;
+		 	display: none;
+	     }  
+		 .About1_HOME_ul li{
+		 	float: none;
+		 	background-color: white;
+		 	margin: 5px;
+		 }
+		 .About1_HOME_ul li a{
+		 	color: black;
+		 }
+		 .About1_HOME_ul li a:hover{
+		 	color: aquamarine;
+		 }
+		.About1_bannana li:hover .About1_HOME_ul{
+			display: block;
+		}
+		 /*PAGES_ul的CSS*/
+		 .About1_PAGES_ul {
+		   position: absolute;
+		 	list-style: none;
+		 	float: none;
+		 	display: none;
+		    margin-left: -40px;
+		 	
+		 }
+		 
+		 .About1_PAGES_ul li {
+		 	float: none;
+		 	margin: 5px;
+		 background-color: white;
+		 }
+		 
+		 .About1_PAGES_ul li a {
+		 	color: black;
+		
+		 }
+		 
+		 .About1_PAGES_ul li a:hover {
+		 	color: aqua;
+		 }
+		 
+		 .About1_PAGES_ul li:hover .About1_AAA_ul {
+		 	display: block;
+		 }
+		 /*AAA的CSS*/
+		 .About1_AAA_ul {
+	       position: absolute;
+		 	list-style: none;
+		 	float: none;
+		 	display: none;
+		 	margin-left: 10px;
+		 	margin-top: -25px;
+		 	
+		 }
+		 
+		 .About1_AAA_ul li {
+		 	float: none;
+		 	background-color: white;
+		 }
+		 
+		 .About1_AAA_ul li a {
+		 	color: black;
+		 }
+		
+		 
+		 .About1_AAA_ul li a:hover {
+		 	color: brown;
+		 }
+		  .About1_PAGES_ul li:hover .About1_About_ul{
+	    	display: block;
+	    }
+	    /*About的CSS*/
+		 .About1_About_ul{
+		  position: absolute;
+			list-style: none;
+			float: none;
+			display: none;
+			margin-left: 10px;
+			margin-top: -25px;
+		}
+		.About1_About_ul li{
+			float: none;
+			background-color: white;
+		}
+		.About1_About_ul li a{
+			color: black;
+		}
+		.About1_About_ul li a:hover{
+			color: #7FFFD4;
+		}
+		.About1_PAGES_ul li:hover .About1_Contant_ul{
+			display: block;
+		}
+		/*Contant_ul的CSS*/
+	   .About1_Contant_ul{
+	     position: absolute;
+	   	list-style: none;
+	   	float: none;
+	  
+	   	display: none;
+	   	margin-left: 10px;
+	   	margin-top: -25px;
+	   }
+	   .About1_Contant_ul li{
+	   	background-color: white;
+	   	float: none;
+	   }
+	   .About1_Contant_ul li a{
+	   	color: black;
+	   }
+	   .About1_Contant_ul li a:hover{
+	   	color: blue;
+	   }
+	    .About1_oragane {
+		 	width: 100%;
+		 	height: 800px;
+		
+		 	/*添加背景图片*/
+		 	background: url(../img/about_us_title_bg.jpg) repeat;
+		 	background-attachment:fixed;
+		 	background-size: cover;
+		 }
+	    .About1_oragane_large_character{
+		 	width: 70%;
+		 	font-size: 4em;
+		 	font-weight: 600;
+		 	color: #FFFFFF;
+		 	text-align: center;
+		 	margin-left: auto;
+		 	margin-right: auto;
+	     padding-top: 300px;
+		 }
+		 .About1_oragane_larges{
+		 	width: 70%;
+		 	font-size: 1em;
+		 	color: #FFFFFF;
+		 	text-align: center;
+		 	margin-left: auto;
+		 	margin-right: auto;
+	
+		 }
+		 .About1_six{
+		 	width: 100%;
+		 	height: 500px;
+		 	float: left;
+		 	background-color: white;
+		    margin-top: 100px;
+		 }
+		.row p{
+			text-align: center;
+		 	margin-left: 80px;
+		 	margin-right: 200px;
+			color: #CCCCCC;
+			 padding: 10px;
+			 font-size: 20px;
+		}
+		.row p1{
+			color:#999999;
+		  font-size:13px ;
+		}
+	    .row h3{
+	    	text-align: center;
+		 	margin-left: 80px;
+		 	margin-right: 200px;
+			color:#6F42C1;
+			 padding: 10px;
+			 font-size: 25px;
+	    }
+	    .row p3{
+	    	color: #818182;
+	    }
+	   .row h2{
+	   	 color: white;
+	   	 font-size: 1.5em;
+	   	 margin-left: 50px;
+	   	 margin-top: 100px;
+	   }
+		.About1_theme{
+			background: url(../img/quote_mission.jpg);
+			width: 100%;
+			height: 800px;
+			float: left;
+			margin-top: 50px;
+			
+		} 
+		.About1_theme_zi{
+			color: white;
+			font-size: 4em;
+			text-align: center;
+			margin-top: 200px;
+			font-family: "franklin gothic heavy";
+			margin-left: 250px;
+			margin-right: 200px;
+			
+		}
+		.About1_circle{
+			width: 100%;
+			height: 400px;
+			margin-top: 70px;
+			float: left;
+		}
+		
+		.About1_circle_zi h3{
+			font-size: 2em;
+			text-align: center;
+			
+		}
+		.About1_circle_zi p{
+			color: #999999;
+			font-size: 1.5em;
+			text-align: center;
+			margin-left: 250px;
+			margin-right: 200px;
+			margin-top: 30px;
+			font-family: "微软雅黑";
+		}
+		.row1{
+			width: 80%;
+			height: 150px;
+			text-align: center;
+     	    margin-left: auto;
+		    margin-right: auto;
+			
+		}
+     .img-circle{
+     	width: 100%;
+     	height: 100%;
+     	margin-top: 50px;
+     }
+  .About1_black{
+  	width: 100%;
+  	height: 400px;
+  	background-color: #000000;
+  	float: left;
+  }
+  
+ .br{
+ 	position: absolute;
+ 	width: 100%;
+ 	height: 1px;
+   background-color: white;
+ 	z-index: 1;
+  margin-top: 100px;
+ }
+ .br1{
+ 	width: 100%;
+ 	height: 1px;
+   background-color:#CCCCCC;
+ 	z-index: 1;
+  margin-top: 12px;
+ }
+.br2{
+	width: 20%;
+	height: 1px;
+	background-color: #FF7F50;
+	z-index: 1;
+}
+.piciture{
+	 width: 100%;
+	 font-size: 20px;
+	padding: 30px;
+}
+.picitures{
+	margin-top: 20px;
+}
+.glyphicon{
+	  margin: 10px;
+}
+.col-md-3 h4{
+	color:#818182;
+	font-size:15px 
+}
+.works_p1{
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	margin: 10px;
+}
+nav.sticky{
+				position: fixed;
+				background: #FFFFFF;
+				visibility: hidden;
+				box-shadow: 0 0 10px 1px #000000;
+			}
+			nav.sticky ul>li{
+				color: #000000;
+				height: 60px;
+				line-height: 60px;
+				vertical-align: middle;
+				font-size: 16px;
+				
+			}
+			nav.offset{
+				transform: translate(0,-100%);
+				transition: all 0.5s ease-in-out;
+			}
+			nav.scrolling{
+				visibility: visible;
+				transform: translate(0,0);
+			}
