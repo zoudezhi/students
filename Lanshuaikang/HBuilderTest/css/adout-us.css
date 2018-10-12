@@ -1,0 +1,284 @@
+/*类筛选器*/
+/*.p1{
+	color: blue;
+}
+*/
+div{
+	display: block;
+}
+body{
+	margin: 0px;
+	float: left;
+}
+.z1 h1{
+	float: left;
+	color: aliceblue;
+    margin-left: 25px;
+    
+}
+
+.z1_ul li a{
+	color: white;
+	text-decoration: none;
+}
+.z1_ul{
+	
+	float: left;
+	list-style: none;
+	margin-top: 15px;
+	margin-left:50px;
+	text-align: center;
+	font-weight: bold;
+	
+}
+.z1_ul li{
+	
+	float: left;
+	padding: 20px 20px 20px 20px;
+	font-size: 20px;
+}
+
+.home_ul{
+	background-color: red;
+	display: none;
+	position: absolute;	
+}
+.home_li:hover .home_ul{
+	display: block;
+}
+.home_ul li{
+	float: none;
+}
+
+.home_ul_2{
+	background-color: red;
+	display: none;
+	position: absolute;	
+	margin-left: 65px;
+	margin-top: -15px;
+}
+.home_li_2:hover .home_ul_2{
+	display: block;
+}
+.home_ul_2 li{
+	float: none;
+}
+
+
+
+.z1_ul li a:hover{
+	color: yellow;
+}
+.z1{
+	background: #11990BBCC;
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	z-index: 1000;
+}
+.tb{
+	 float: right;
+    color:white
+    padding-right: 15px;
+    padding-left: 30px;
+}
+.z2{
+	float: left;
+	position: absolute;
+	background: #9C55BB;
+	width: 100%;
+	height: 800px;
+	background-image: url(../img/about_us_title_bg.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.large_character{
+	width:60%;
+	font-size: 5em;
+	color: #FFFFFF;
+	text-align: center;
+	font-weight: 600;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 250px;
+	}
+	.small_character{
+		width: 60%;
+		font-size: 1em;
+		color: #FFFFFF;
+		text-align: center;
+		font-weight: 100;
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+.ad{
+	float: left;
+	width: 100%;
+	height: 400px;
+	background: #F0F8FF;
+	z-index: 1001;
+	margin-top:300px ;
+	
+}
+.ad_block{
+	
+	width: 80%;
+	background: #FFFFFF;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.ad_block_item{
+	float: left;
+	top: 0px;
+	width: 29%;
+	height: 90%;
+	background: #FFFFFF;
+	border: 1px solid #000000;
+	float: left;
+	margin-left: 50px;
+	margin-top: 10px;
+	border-radius: 5px;
+	transition: all 0.5s ease-in-out;
+}
+.ad_block_item:hover{
+	box-shadow: 0px 5px 20px #000000;
+	top: -5px;
+}
+.item1{
+	border-top: 3px solid red;
+}
+.item2{
+	border-top: 3px solid #558BCC;
+}
+.item3{
+	border-top: 3px solid green;
+}
+.declaration{
+	float: left;
+	width: 100%;
+	height: 700px;
+	background:url(../img/quote_mission.jpg);
+	background-attachment: fixed;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.declaration_text{
+	color: #fff;
+	font-size: 60px;
+	line-height: 1.5;
+	margin-top: 300px;
+	margin-left: 350px;
+	margin-right:350px;
+	font-family:"宋体";
+	font-style: italic;	
+	text-align: center;
+	font-weight: bolder;
+}
+.section-wrap{
+	width: 100%;
+	height: 900px;
+	float: left;
+}
+.intro{
+	padding: 200px;
+}
+
+.mt-50{
+	color: black;
+	font-size: 2em;	
+	margin-top: 250px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.intro-text{
+	color: gray;
+	font-size:1.5em ;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.img-fw{
+	transform: scale(0.8);
+	margin-top:150px;
+}
+.heading{
+	position: relative;
+    margin-bottom: 30px;
+	font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-family: "Roboto", sans-serif;
+    margin-top: 50px;
+    color: #5a5b5f;
+    line-height: 1.5;
+}
+.subheading {
+    font-family: "Merriweather", serif;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 34px;
+}
+.owl-carousel{
+	width: 100%;
+	position: relative;
+	box-sizing: border-box;
+	font-family: "Open Sans", sans-serif;
+	font-size: 15px;
+    line-height: 1.5;
+    color: #979ba3;	
+    float: left;
+    -webkit-font-smoothing: antialiased;
+}
+.owl-item{
+	float: left;
+}
+.team-img{
+	width: 100%;
+	height: 60%;
+}
+.imgs{
+	margin-top: 80px;
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.img-circle{
+	width: 100%;
+	height: 100%;
+	
+}
+.name{
+	color: dimgray;
+	text-align: center;
+	margin-top: 40px;
+	font-size: 20px;
+}
+.job{
+	color: darkgray;
+	text-align: center;
+	font-style: italic;
+}
+.boot{
+	float: left;
+	width: 100%;
+	height: 500px;
+   background-color:black;
+}
+.title{
+	color: white;
+	font-weight: 300;
+	font-size: 25px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 30px;
+}
+.body{
+	color:gray ;
+	font-size: 15px;
+	margin-left: 50px;
+	margin-right: 100px;
+}
+
