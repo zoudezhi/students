@@ -1,0 +1,641 @@
+body {
+	margin: 0px;
+}
+
+
+/*==============================Header Css Start============================*/
+
+.header {
+	background-color: rgba(0, 0, 0, 0.2);
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	z-index: 100;
+	color: white;
+	padding-top: 10px;
+}
+
+#header_title {
+	padding-left: 100px;
+}
+
+.a {
+	position: absolute;
+	width: 100%;
+	height: 1px;
+	background: white;
+	margin-top: 110px;
+	z-index: 1;
+}
+
+.header h1 {
+	float: left;
+}
+
+.header_ul {
+	padding-left: 400px;
+	margin-top: 25px;
+	float: left;
+	list-style: none;
+}
+
+.home_li:hover .home_ul {
+	display: block;
+}
+
+.pages_li:hover .pages_ul {
+	display: block;
+}
+
+.services_li:hover .services_ul {
+	display: block;
+}
+
+.about_us_li:hover .about_us_ul {
+	display: block;
+}
+
+.contact_li:hover .contact_ul {
+	display: block;
+}
+
+
+/*一级下拉列表*/
+
+.header_ul li {
+	padding: 10px 10px 10px 10px;
+	float: left;
+}
+
+.header_ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+.header_ul li a:hover {
+	color: #FF5809;
+}
+
+.home_ul li a:hover {
+	color: #FF5809;
+}
+
+.pages_ul li a:hover {
+	color: #FF5809;
+}
+
+.services_ul li a:hover {
+	color: #FF5809;
+}
+
+.about_us_ul li a:hover {
+	color: #FF5809;
+}
+
+.contact_ul li a:hover {
+	color: #FF5809;
+}
+
+
+/*home标签*/
+
+.home_ul {
+	width: 200px;
+	margin-top: 5px;
+	margin-left: -100px;
+	position: absolute;
+	list-style: none;
+	display: none;
+	float: none;
+}
+
+.home_ul li {
+	height: 20px;
+	padding-left: 45px;
+	float: none;
+	background-color: white;
+}
+
+#home_li_1 {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.home_ul li a {
+	size: 14px;
+	color: black;
+}
+
+
+/*pages标签*/
+
+.pages_ul {
+	width: 150px;
+	margin-top: 5px;
+	margin-left: -80px;
+	position: absolute;
+	list-style: none;
+	display: none;
+	float: none;
+}
+
+.pages_ul li {
+	height: 20px;
+	padding-left: 40px;
+	float: none;
+	background-color: white;
+}
+
+#ser_li {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.pages_ul li a {
+	size: 14px;
+	color: black;
+}
+
+
+/*pages下services二级标签*/
+
+.services_ul {
+	margin-left: 70px;
+	margin-top: -31px;
+	position: absolute;
+	list-style: none;
+	display: none;
+	float: none;
+}
+
+.services_ul li {
+	height: 20px;
+	padding-left: 5px;
+	float: none;
+	background-color: white;
+}
+
+.services_ul li a {
+	size: 14px;
+	color: black;
+}
+
+
+/*pages下about us二级标签*/
+
+.about_us_ul {
+	margin-left: 70px;
+	margin-top: -31px;
+	position: absolute;
+	list-style: none;
+	display: none;
+	float: none;
+}
+
+.about_us_ul li {
+	height: 20px;
+	padding-left: 5px;
+	float: none;
+	background-color: white;
+}
+
+.about_us_ul li a {
+	size: 14px;
+	color: black;
+}
+
+
+/*pages下contact二级标签*/
+
+.contact_ul {
+	margin-left: 70px;
+	margin-top: -31px;
+	position: absolute;
+	list-style: none;
+	display: none;
+	float: none;
+}
+
+.contact_ul li {
+	height: 20px;
+	padding-left: 5px;
+	float: none;
+	background-color: white;
+}
+
+.contact_ul li a {
+	size: 14px;
+	color: black;
+}
+
+
+/*===========================Header Css End===================================*/
+
+
+/*==========================Banner Css Start==============================*/
+
+
+/*图片背景*/
+
+.banner {
+	width: 100%;
+	height: 800px;
+	background: url(../img/revolution/slide_1.jpg);
+	float: left;
+	background-size: cover;
+}
+
+.banner_content {
+	width: 65%;
+	font-size: 5em;
+	color: white;
+	font-weight: 700;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 280px;
+}
+
+.banner_content_small {
+	width: 40%;
+	font-size: 1.5em;
+	color: white;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+}
+
+.banner_button {
+	width: 10%;
+	height: 40px;
+	color: white;
+	border-style: solid;
+	border-color: white;
+	margin-left: 45%;
+	margin-top: 50px;
+	border-radius: 5px;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+.banner_button:hover{
+	border-color: #FF5809;
+	background-color: #FF5809;
+}
+
+/*===========================Banner Css End================================*/
+
+
+/*==============================AD Css Start============================*/
+.home_ad {
+	width: 100%;
+	height: 600px;
+	background-color: #F0F0F0;
+	float: left;
+}
+
+.home_ad_block {
+	width: 80%;
+	height: 80%;
+	margin-top: 90px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #f0f0f0;
+}
+
+.home_ad_block_item {
+	position: relative;
+	top: 0px;
+	float: left;
+	background-color: white;
+	width: 30%;
+	height: 80%;
+	margin: 20px;
+	transition: all 0.3s ease-in-out;
+}
+
+.home_ad_block_item:hover {
+	box-shadow: 0px 10px 20px 5px #BEBEBE;
+	top: -10px;
+}
+
+.item1_img {
+	width: 50px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 70px;
+	background: url(../img/zuanshi.png);
+	background-size: cover;
+}
+
+.item2_img {
+	width: 50px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 70px;
+	background: url(../img/organized.png);
+	background-size: cover;
+}
+
+.item3_img {
+	width: 50px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 70px;
+	background: url(../img/bag.png);
+	background-size: cover;
+}
+/*---item1---*/
+
+.item1 {
+	border-top: 3px solid #FF5809;
+	border-radius: 5px;
+}
+.item1 h3 {
+	width: 100%;
+	color: #5B5B5B;
+	font-size: 1.5em;
+	font-weight: 400;
+	text-align: center;
+}
+
+.item1 p {
+	width: 80%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	color: #bebebe;
+}
+.item1_btn{
+	margin-top: 30px;
+}
+.item1_btn a {
+	color: #FF5809;
+	text-align: center;
+	font-size: 15px;
+	margin-left: 38%;
+	text-decoration: none;
+}
+.item1 a:hover{
+	color: black;
+}
+/*---item2---*/
+.item2 {
+	border-top: 3px solid #02C874;
+	border-radius: 5px;
+}
+.item2 h3 {
+	width: 100%;
+	color: #5B5B5B;
+	font-size: 1.5em;
+	font-weight: 400;
+	text-align: center;
+}
+
+.item2 p {
+	width: 80%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	color: #bebebe;
+}
+.item2_btn{
+	margin-top: 30px;
+}
+.item2_btn a {
+	color: #02C874;
+	text-align: center;
+	font-size: 15px;
+	margin-left: 38%;
+	text-decoration: none;
+}
+.item2 a:hover{
+	color: black;
+}
+/*----item3----*/
+.item3 {
+	border-top: 3px solid #7D7DFF;
+	border-radius: 5px;
+}
+.item3 h3 {
+	width: 100%;
+	color: #5B5B5B;
+	font-size: 1.5em;
+	font-weight: 400;
+	text-align: center;
+}
+
+.item3 p {
+	width: 80%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	color: #bebebe;
+}
+.item3_btn{
+	margin-top: 30px;
+}
+.item3_btn a {
+	color: #7D7DFF;
+	text-align: center;
+	font-size: 15px;
+	margin-left: 38%;
+	margin-top: 100px;
+	text-decoration: none;
+}
+.item3 a:hover{
+	color: black;
+}
+
+/*============================AD Css End===========================*/
+
+
+/*=======================FIT Css Start===========================*/
+
+.home_fit{
+	float: left;
+	background-color: white;
+	width: 100%;
+	height: 800px;
+}
+
+.home_fit_all{
+	width: 100%;
+	height: 90%;
+	margin-top: 2%;
+	background-color: white;
+}
+
+.fit_cpt{
+	width: 53%;
+	height: 85%;
+	margin-top: 3.5%;
+	float: left;
+	background: url(../img/promo_laptop_1.jpg) repeat;
+	background-size: cover;
+}
+.fit_contact{
+	width: 30%;
+	height: 85%;
+	margin-top: 5%;
+	margin-left: 50px;
+	float: left;
+	background-color: white;
+}
+.fit_contact_turning{
+	width: 100%;
+	height: 80px;
+	background-color: white;
+}
+.btn_prev{
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 15px;
+	background: url(../img/prev.png);
+	background-size: cover;
+}
+.btn_next{
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-top: 15px;
+	margin-left: 10px;
+	background: url(../img/next.png);
+	background-size: cover;
+}
+.fit_contact h2{
+	font-size: 2.5em;
+	font-weight: 400;
+}
+.lead_text{
+	font-size: 18px;
+    line-height: 34px;
+    margin-bottom: 37px;
+}
+.fit_contact p{
+	font-size: 18px;
+    line-height: 34px;
+}
+.btn_fit_1{
+	width: 30%;
+	height: 40px;
+	color: black;
+	border-style: solid;
+	border-color: #BEBEBE;
+	margin-left: 5%;
+	margin-top: 30px;
+	border-radius: 5px;
+	background-color:white;
+	font-weight: 600;
+}
+.btn_fit_1:hover{
+	border-color: #FF5809;
+	background-color: #FF5809;
+	color: white;
+}
+.btn_fit_2{
+	width: 30%;
+	height: 40px;
+	color: white;
+	border-style: solid;
+	border-color: #FF5809;
+	margin-left: 5%;
+	margin-top: 30px;
+	border-radius: 5px;
+	background-color:#FF5809;
+	font-weight: 600;
+}
+/*==========================FIT Css End===========================*/
+
+/*====================declaration Css Start====================*/
+
+.home_declaration{
+	float: left;
+	width: 100%;
+	height: 500px;
+	background: url(../img/testimonials_bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.declaration_text{
+	color: white;
+	font-size: 2em;
+	width: 75%;
+	font-weight: 300;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 130px;
+}
+.declaration_text_fit{
+	color: white;
+	width: 50%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+
+/*====================declaration Css End====================*/
+
+/*=================declaration_foot Css Start==================*/
+
+.declaration_foot{
+	float: left;
+	width: 100%;
+	height: 150px;
+	background-color: #FFE4C4;
+}
+
+.declaration_nothing{
+	float: left;
+	width: 100%;
+	height: 100px;
+}
+
+/*=================declaration_foot Css End==================*/
+
+/*=================assistant_title Css Start==================*/
+
+.titles{
+	width: 12.7%;
+	font-size: 2em;
+	color: #6c6c6c;
+	font-weight: 300;
+	margin-left: auto;
+	margin-right: auto;
+}
+.title_line{
+	width: 100%;
+	height: 3px;
+	background-color: white;
+	margin-bottom: 20px;
+}
+.title_line_in{
+	width: 100%;
+	height: 1px;
+	background-color: #BEBEBE;
+	margin-top: 1px;
+}
+.title_line_on{
+	width: 4%;
+	height: 100%;
+	background-color: #FF5809;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*=================assistant_title Css End==================*/
+
+/*====================assistant Css Start====================*/
+
+.home_assistant{
+	float: left;
+	width: 100%;
+	height: 500px;
+	background-color: #FF5809;
+}
+
+/*====================declaration Css End====================*/
