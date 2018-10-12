@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+		<h1 id="hello">Hello javascript</h1>
+
+		<button onmouseover="ChageColor();" onmouseout="" onclick="Chagetext();">点击改变颜色</button>
+		<h1 id="hello1" onclick="this.innerHTML='您好，JavaScript'">Hello javascript</h1>
+		<h1>请输入你的英文名
+		<input type="text" id="pig"  onchange="myFunction()" />
+		</h1>
+
+		<div id="d1" onmouseover="over(this)" onmouseout="out(this)" style="background: pink; width: 100px; height: 100px;">
+			hhhhh
+		</div>
+		<br />
+		<div id="d1" onmousedown="down(this)" onmouseup="up(this)" style="background: pink; width: 100px; height: 100px;">
+			诸彦修
+		</div>
+
+		<script type="text/javascript">
+			var a = 2;
+			var b = "zyx";
+			var c = 1.2;
+			var d = true;
+			var e = "120+20*2";
+
+			console.log(a + b);
+			console.log(a + c);
+			console.log(a + d);
+			console.log(a - b);
+			console.log(eval(e));
+			console.log(b + c);
+
+			var para = document.createElement("t");
+			var note = document.createTextNode("this is new");
+			para.appendChild(note);
+
+			document.getElementById("hello").innerHTML = "哈哈哈哈！！！";
+
+			function ChageColor() {
+				document.getElementById("hello").style.color = "yellow";
+			}
+
+			function Chagetext() {
+				document.getElementById("hello1").innerHTML = "您好，JavaScript";
+			}
+
+			function myFunction() {
+
+				var x = document.getElementById("pig");
+				x.value = x.value.toLocaleLowerCase();
+			}
+
+			function over(dd) {
+				dd.innerHTML = "请把鼠标移到上面去";
+			}
+
+			function out(dd) {
+				dd.innerHTML = "谢谢你";
+			}
+			function down(tt) {
+				tt.innerHTML = "松开鼠标";
+			}
+			function up(tt) {
+				tt.innerHTML = "谢谢你";
+			}
+			
+		</script>
+	</body>
+
+</html>

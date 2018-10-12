@@ -1,0 +1,330 @@
+body {
+	margin: 0px;
+}
+
+
+/*===================header start========================*/
+
+.header {
+	position: absolute;
+	z-index: 1000;
+	width: 100%;
+	height: 80px;
+	background: #ggff44;
+}
+
+.header1 {
+	position: absolute;
+	z-index: 1000;
+	width: 100%;
+	height: 80px;
+	background: #ggff44;
+}
+
+.name {
+	margin-left: 30px;
+	margin-right: 400px;
+	float: left;
+	color: white;
+}
+.navigation{
+
+
+}
+nav.sticky {
+	width: 100%;
+	position: fixed;
+	background: #ccc;
+	box-shadow: 0 0 10px 1px #000000;
+	padding-left: 400px;
+}
+
+nav.sticky ul>li {
+	
+	color: #000000;
+	height: 60px;
+	line-height: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: middle;
+	font-size: 16px;
+}
+.menu{
+	
+}
+.menu li {
+	font-size: 16px;
+	padding: 5px 5px 5px 15px;
+	margin-top: 30px;
+	float: left;
+	list-style: none; //去掉导航栏的默认小点
+}
+
+.menu li a {
+	color: #191B1F;
+	text-decoration: none; //去掉链接标签的下划线
+}
+
+
+/*链接伪类*/
+
+.menu li a:hover {
+	color: yellowgreen;
+}
+
+.home_ul {
+	border-top: 2px solid yellowgreen;
+	margin-right: -15px;
+	margin-top: 70px;
+	background: whitesmoke;
+	position: absolute;
+	display: none;
+	font-size: 14px;
+}
+
+.menu li:hover .home_ul {
+	display: block;
+}
+
+.home_ul li {
+	padding-right: 80px;
+	float: none;
+}
+
+.servies_li:hover .servies_ul {
+	display: block;
+}
+
+.servies_ul {
+	position: absolute;
+	background: #ecf5ff;
+	display: none;
+	margin-left: 180px;
+	margin-top: -29px;
+}
+
+.servies_ul li {
+	float: none;
+	list-style: none;
+	color: black;
+	padding-right: 50px;
+}
+
+.home_default {
+	position: absolute;
+	margin-left: 100px;
+	margin-top: -20px;
+	display: none;
+	background: yellowgreen;
+}
+
+.home_ul:hover .home_default {
+	display: block;
+}
+
+.br {
+	position: absolute;
+	z-index: 1;
+	margin-top: 40px;
+	width: 100%;
+	height: 1px;
+	background: #fffFFF;
+}
+
+
+/*===========header end=====================*/
+
+
+/*==============banner start===================*/
+
+.banner {
+	margin-top: -100px;
+	float: left;
+	background: url(../img/slide_1.jpg) no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	width: 100%;
+	height: 800px;
+}
+
+.banner_large_charet {
+	width: 70%;
+	font-size: 5em;
+	color: white;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 300px;
+	font-weight: 600;
+}
+
+.banner_small_charet {
+	position: absolute;
+	z-index: 1000;
+	width: 100%;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+
+.banner_button {
+	padding-top: 10px;
+	text-align: center;
+	width: 12%;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid white;
+	margin-top: 100px;
+	border-radius: 5px;
+	color: #FBFCFC;
+}
+
+.banner_button:hover {
+	background: palevioletred;
+	border: none;
+}
+
+
+/*===============banner css end==================*/
+
+
+/*==============================================*/
+
+.ad {
+	float: left;
+	width: 100%;
+	height: 400px;
+	background: #ECF5FF;
+}
+
+.da {
+	margin-top: 60px;
+	float: left;
+	height: 400px;
+	background: white;
+	width: 100%;
+}
+
+.ad_block {
+	padding-left: 70px;
+	width: 80%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ad_block_item {
+	/**/
+	position: relative;
+	top: 0px;
+	/**/
+	width: 29%;
+	height: 90%;
+	background: #FBFCFC;
+	float: left;
+	border: 1px solid #ccc;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+	border-radius: 5px;
+	/**/
+	transition: all 0.5s ease-in-out;
+}
+
+.item1 {
+	border-top: 3px solid rosybrown;
+}
+
+.jewel {
+	width: 35%;
+	height: 12%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	background: url(../img/buling.png) no-repeat;
+}
+
+.book {
+	width: 35%;
+	height: 12%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	background: url(../img/book.png) no-repeat;
+}
+
+.shopping_bag {
+	width: 35%;
+	height: 12%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	background: url(../img/shopping-bag.png) no-repeat;
+}
+
+.item1_text {
+	text-align: center;
+	width: 80%;
+	height: 5%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.item1_text1 {
+	text-align: center;
+	width: 80%;
+	height: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	color: grey;
+}
+
+.item_a {
+	margin-top: 100px;
+	text-align: center;
+	width: 80%;
+	height: 5%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.item2 {
+	border-top: 3px solid burlywood;
+}
+
+.item3 {
+	border-top: 3px solid plum;
+}
+
+.ad_block_item:hover {
+	box-shadow: 0px 1px 20px 5px #cccccc;
+	top: -5px;
+}
+
+
+/*======================declaration CSS ===============================*/
+
+.declaration {
+	float: left;
+	width: 100%;
+	height: 400px;
+	background: url(../img/testimonials_bg.jpg);
+	background-attachment: fixed;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.declaration_text {
+	width: 60%;
+	height: 600px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	color: whitesmoke;
+	font-size: 25px;
+	padding-top: 30px;
+}
