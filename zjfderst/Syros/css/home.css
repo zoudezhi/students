@@ -1,0 +1,278 @@
+body {
+	margin: 0px;
+}
+
+.TopNavigation {
+	width: 100%;
+	height: 100px;
+	z-index: 1000;
+	position: absolute;
+	z-index: 1000;
+}
+
+.Bunner {
+	position: absolute;
+	width: 100%;
+	height: 800px;
+	background: #002525;
+	background-image: url(../img/revolution/slide_1.jpg);
+}
+
+.TopNavigation h1 {
+	float: left;
+	margin-left: 30px;
+	color: white;
+	font-size: 40px;
+}
+
+.NavigationName {
+	margin-top: 40px;
+	margin-left: 250px;
+	position: absolute;
+}
+
+.NavigationName li {
+	float: left;
+	list-style: none;
+}
+
+.NavigationName a {
+	margin-left: 20px;
+	color: white;
+	text-decoration: none;
+}
+
+.NavigationName a:hover {
+	color: red;
+}
+
+.Xhx {
+	margin-top: 105px;
+}
+
+.Home_ul {
+	margin-left: -25px;
+	width: 150px;
+	position: absolute;
+	background: red;
+	display: none;
+	float: none;
+}
+.Home_ul li{
+	float: none;
+	margin-left: -20px;
+	padding: 5px;.
+}
+.Pages_ul{
+	display: none;
+	width: 80px;
+	height: 100px;
+	position: absolute;
+	background: red;
+}
+.Pages_ul li{
+	margin-left: -20px;
+	padding: 3px;.
+	float: none;
+}
+.Pages_ul2{
+	margin-left: 80px;
+	width: 80px;
+	position: absolute;
+	background: blueviolet;
+	display: none;
+}
+.Pages_ul2 li{
+	
+	
+}
+.Home_li:hover .Home_ul {
+	display: block;
+	
+}
+.Pages_li:hover .Pages_ul{
+	display: block;
+}
+.Pages_li1:hover .Pages_ul2 {
+	display: block;
+}
+
+/*banner css*/
+.bannner_contont{
+	width: 60%;
+	font-size: 80px;
+	color: #FFFFFF;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 200px;
+	font-weight: bold;
+}
+.banner_annotation{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	color: #FFFFFF;
+	font-size: 25px;
+	margin-top: 20px;
+	text-align: center;
+}
+/*Bordermessage css*/
+.Bordermessage{
+	width: 100%;
+	height: 500px;
+	background: #EEEEEE;
+	margin-top: 800px;
+	float: left;
+	
+}
+.border_meg{
+	width: 90%;
+	height: 380px;
+	background: #EEEEEE;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	
+}
+.border_item1{
+	position: relative;
+	width: 280px;
+	height: 350px;
+	top: 0px;
+	background: white;
+	margin: 50px;
+	border-top: #FF0000;
+	border-radius: 5px;
+	border-top: 3px solid #FF0000;
+	transition:all 0.5s ease-in-out;
+	float: left;
+}
+.border_item1:hover {
+	box-shadow: 0px 1px 20px 5px #cccccc;
+	top:-5px;
+}
+.border_item2{
+	position: relative;
+	width: 280px;
+	height: 350px;
+	top: 0px;
+	background: white;
+	margin: 50px;
+	border-radius: 5px;
+	border-top: 3px solid #7FFF00;
+	transition:all 0.5s ease-in-out;
+	float: left;
+}
+.border_item2:hover{
+	box-shadow: 0px 1px 20px 5px #cccccc;
+	top:-5px;
+}
+.border_item3{
+	/*设置相对布局*/
+	position: relative;
+	width: 280px;
+	height: 350px;
+	/*设置过度动画的初始位置*/
+	top: 0px;
+	background: white;
+	/*设置边框的角度*/
+	border-radius: 5px;
+	/*设置顶部边框*/
+	border-top: 3px solid #8A2BE2;
+	/*过渡动画*/
+	transition:all 0.5s ease-in-out;
+	margin: 50px;
+	float: left;
+}
+.border_item3:hover{
+	/*设置阴影*/
+	box-shadow: 0px 1px 20px 5px #cccccc;
+	top:-5px;
+}
+.border_img{
+	width: 50px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	background: red;
+}
+.border_text{
+	text-align: center;
+	width: 120px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	font-size: larger;
+	font-weight: bold;
+	color: #6F6F6F;
+}
+.border_text_nnotation{
+	text-align: center;
+	width: 220px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: large;
+	font-weight: normal;
+	margin-top: 25px;
+	color: #919191;
+}
+.border_text_read{
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background: #D52B2B;
+	margin-top: 30px;
+	
+    
+}
+.border_progress{
+	width: 0px;
+	height: 1px;
+	background: red;
+	transition:width 2s;
+    -moz-transition: width 2s;
+    -webkit-transition:width 2s;
+}
+.border_text_read:hover .border_progress{
+	width: 100px;
+}
+/*perfection css*/
+.perfection{
+	width: 800px;
+	height: 400px;
+	float: left;
+	background-size: contain;
+	
+}
+.perfection_img img{
+	width: 100%;
+	height: 100%;
+}
+.perfection_text{
+	width: 150px;
+	height: 200px;
+    background: red;
+	float: left;
+	
+}
+/*testimonials_bg*/
+.testimonials_bg{
+	float: left;
+	width: 100%;
+	height: 600px;
+	background: red;
+	background-attachment:fixed;
+	
+}
+.testimonials_bg img{
+	width: 100%;
+	height: 100%;
+	
+}
+.testimonials_text{
+	background: red;
+	float: left;
+}
