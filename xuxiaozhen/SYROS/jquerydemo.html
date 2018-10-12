@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+		<script src="js/jquery.min.js" type="text/javascript">
+		</script>
+
+		<h1 id="hello">hello Jquery</h1>
+		<br />
+
+		<h3>中国办事处</h3>
+		<div class="ex">
+			<button class="hide" type="button">隐藏</button>
+			<p>联系人：张先生<br /> 北三环中路 100 号<br /> 北京
+			</p>
+		</div>
+
+		<script type="text/javascript">
+			$("#hello").css("color", "#0062CC");
+			$(".ex").show().click(function(){
+				 $(this).parents(".ex").hide("slow");
+			});
+		</script>
+	</body>
+
+</html>

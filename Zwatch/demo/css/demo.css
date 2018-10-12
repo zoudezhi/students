@@ -1,0 +1,341 @@
+		 body {
+		 	margin: 0px;
+		 }
+		 /*bannana的CSS*/
+		 .bannana {
+		 	width: 100%;
+		 	height: 150px;
+		 	color: white;
+		 	z-index: 100;
+		 	position: absolute;
+		 }
+		 
+		 .bannana h1 {
+		 	float: left;
+		 	margin-left: 50px;
+		 }
+		 
+		 .bannana_ul {
+		 	list-style: none;
+		 	float: left;
+		 	margin-top: 25px;
+		 }
+		 
+		 .bannana_ul li {
+		 	float: left;
+		 	padding: 5px 5px 5px 5px;
+		 }
+		 
+		 .bannana_ul li a {
+		 	color: white;
+		 	text-decoration: none;
+		 	font-size: 14px;
+		 }
+		 
+		 .bannana_ul li a:hover {
+		 	color: #FF0000;
+		 }
+		 
+		 .bannana li:hover .PAGES_ul {
+		 	display: block;
+		 }
+		  /*HOme 的CSS*/
+	     .HOME_ul{
+	     	position: absolute;
+		 	list-style: none;
+		 	float: none;
+		 	margin-left: -40px;
+		 	display: none;
+	     }  
+		 .HOME_ul li{
+		 	float: none;
+		 	background-color: white;
+		 }
+		 .HOME_ul li a{
+		 	color: black;
+		 }
+		 .HOME_ul li a:hover{
+		 	color: aquamarine;
+		 }
+		.bannana li:hover .HOME_ul{
+			display: block;
+		}
+		 /*PAGES_ul的CSS*/
+		 .PAGES_ul {
+		 	position: absolute;
+		 	list-style: none;
+		 	float: none;
+		 	display: none;
+		    margin-left: -40px;
+		 	
+		 }
+		 
+		 .PAGES_ul li {
+		 	float: none;
+		 background-color: white;
+		 }
+		 
+		 .PAGES_ul li a {
+		 	color: black;
+		
+		 }
+		 
+		 .PAGES_ul li a:hover {
+		 	color: aqua;
+		 }
+		 
+		 .PAGES_ul li:hover .AAA_ul {
+		 	display: block;
+		 }
+		 /*AAA的CSS*/
+		 .AAA_ul {
+		 	position: absolute;
+		 	list-style: none;
+		 	float: none;
+		 	display: none;
+		 	margin-left: 10px;
+		 	margin-top: -25px;
+		 	
+		 }
+		 
+		 .AAA_ul li {
+		 	float: none;
+		 	background-color: white;
+		 }
+		 
+		 .AAA_ul li a {
+		 	color: black;
+		 }
+		 
+		 .AAA_ul li a:hover {
+		 	color: brown;
+		 }
+		  .PAGES_ul li:hover .About_ul{
+	    	display: block;
+	    }
+	    /*About的CSS*/
+		 .About_ul{
+			position: absolute;
+			list-style: none;
+			float: none;
+			display: none;
+			margin-left: 10px;
+			margin-top: -25px;
+		}
+		.About_ul li{
+			float: none;
+			background-color: white;
+		}
+		.About_ul li a{
+			color: black;
+		}
+		.About_ul li a:hover{
+			color: #7FFFD4;
+		}
+		.PAGES_ul li:hover .Contant_ul{
+			display: block;
+		}
+		/*Contant_ul的CSS*/
+	   .Contant_ul{
+	   	position: absolute;
+	   	list-style: none;
+	   	float: none;
+	  
+	   	display: none;
+	   	margin-left: 10px;
+	   	margin-top: -25px;
+	   }
+	   .Contant_ul li{
+	   	background-color: white;
+	   	float: none;
+	   }
+	   .Contant_ul li a{
+	   	color: black;
+	   }
+	   .Contant_ul li a:hover{
+	   	color: blue;
+	   }
+		 .oragane {
+		 	width: 100%;
+		 	height: 800px;
+		 	position: absolute;
+		 	/*添加背景图片*/
+		 	background: url(../img/video_section_bg.jpg) repeat;
+		 	background-size: cover;
+		 }
+		 /*oragane_large_character的CSS*/
+		 .oragane_large_character{
+		 	width: 70%;
+		 	font-size: 5em;
+		 	color: #FFFFFF;
+		 	font-weight: 600;
+		 	text-align: center;
+		 	margin-left: auto;
+		 	margin-right: auto;
+		 	margin-top: 100px;
+		 }
+		
+		 .oragane_larges{
+		 	width: 70%;
+		 	font-size: 2em;
+		 	color: #FFFFFF;
+		 	font-weight: 600;
+		 	text-align: center;
+		 	margin-left: auto;
+		 	margin-right: auto;
+		 	margin-top: 50px;
+		 }
+		 .oragane_btn{
+		 	width: 150px;
+		 	height: 50px;
+		 	font-size: 1em;
+		 	text-align: center;
+		    margin-left: 45%;
+		    margin-top: 50px;
+		    color: white;
+		    border-radius: 5px;
+		    background-color:rgba(0,0,0,0.2) ;
+		 }
+		 .oragane_btn:hover{
+		 	background-color: coral;
+		 }
+         .ad{
+         	width: 100%;
+		 	height: 500px;
+		 	z-index: 1001;
+		 	position: absolute;
+         	margin-top: 500px;
+         }
+         .ad_block{
+         	width: 80%;
+         	background:wheat;
+         	height: 100%;
+         	margin-left: auto;
+         	margin-right: auto;
+         }
+         
+         .ad_block_item{
+         	position: relative;
+         	border-radius: 5px;
+         	top: 0px;
+         	width: 29%;
+         	height: 90%;
+         	background: #FFFFFF;
+         	border: 1px solid #ccc;
+         	float: left;
+         	margin-left: 30px;
+         	margin-top: 10px;
+         	transition: all 0.5s ease-in-out;
+       
+         }
+         .ad_block_item:hover{
+         	box-shadow: 0px 1px 20px 5px #cccccc;
+         	top: -5px;
+         }
+         /***item1 的CSS**/
+        .item1{
+        	border-top: 3px solid red;
+        	border-radius: 5px;
+        }
+        .item1_img{
+            background: url(../img/zuanshi.png) no-repeat;
+             margin-left: auto;
+             margin-right: auto;
+            width: 25%;
+            height: 15%;
+            margin-top: 20px;
+        }
+        .item1 h3{
+        	font-size: 2em;
+        	margin-left: 50px;
+        }
+        .item1 p{
+        	color: #CCCCCC;
+        	padding-left: 35px;
+        	padding-right: 35px;
+        }
+        .ad_block_item_1{
+        	font-size: 1em;
+        	margin-top: 50px;
+        	margin-left: 30%;
+        	color: red;
+        }
+        .item2{
+        	border-top: 3px solid blue;
+        	border-radius: 5px;
+        }
+        .item2 h3{
+        	font-size: 2em;
+        	margin-left: 50px;
+        } 
+        .item2 p{
+        	color: #CCCCCC;
+        	padding-left: 35px;
+        	padding-right: 35px;
+        }
+         .ad_block_item_2{
+        	font-size: 1em;
+        	margin-top: 50px;
+        	margin-left: 30%;
+        	color: green;
+        }
+         .item2_img{
+            background: url(../img/oragane.png) no-repeat;
+             margin-left: auto;
+             margin-right: auto;
+            width: 20%;
+            height: 15%;
+            margin-top: 20px;
+        }
+        .item3{
+        	border-top: 3px solid yellow;
+        	border-radius: 5px;
+        }
+        .item3 h3{
+        	font-size: 2em;
+        	margin-left: 50px;
+        }
+        .item3 p{
+        	color: #CCCCCC;
+        	padding-left: 35px;
+        	padding-right: 35px;
+        }
+         .ad_block_item_3{
+        	font-size: 1em;
+        	margin-top: 50px;
+        	margin-left: 30%;
+        	color: blueviolet;
+        }
+         .item3_img{
+            background: url(../img/beibao.png) no-repeat;
+             margin-left: auto;
+             margin-right: auto;
+             
+            width: 20%;
+            height: 15%;
+            margin-top: 20px;
+        }
+     .declaration{
+     	position: relative;
+     	width: 100%;
+     	height: 400px;
+     	float: left;
+     	background: url(../img/testimonials_bg.jpg);
+     	
+     	background-attachment: fixed;
+     }
+     .declaration p{
+     	font-size: 2em;
+     	color: white;
+     	text-align: center;
+     	margin-left: 150px;
+     	margin-right:100px;
+     	margin-top: 100px;
+     }
+     .declaration span{
+     	color: white;
+     	float: left;
+     	
+     
+     }
+     

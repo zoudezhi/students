@@ -1,0 +1,168 @@
+.col-md-2{
+	text-align: center;
+}
+
+
+.about_bg{
+	
+	position: absolute;
+	background-attachment: fixed;
+	background-image: url(../img/about_us_title_bg.jpg);
+}
+.about_bg img{
+	height: 600px;
+	width: 1400px;
+	
+
+}
+.col-md-8{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.about_text{
+	position: relative;
+	text-align: center;
+	width: 400px;
+	height: 50px;
+	font-size: 50px;
+	color: white;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 300px;
+	font-weight: 200px;
+}
+.text_message{
+	margin-top: 300px;
+	height: 500px;
+	
+}
+.tupian{
+	margin-top: 300px;
+}
+.tupian2{
+	margin-top: 300px;
+}
+.tupian img{
+	width: 320px;
+	height: 400px;
+}
+.tupian2 img{
+	width: 320px;
+	height: 400px;
+}
+.text_message3{
+	background: red;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -350px;
+	color: white;
+	font-family: "宋体";
+	text-align: center;
+	font-size: 40px;
+	font-weight: 500;
+	
+}
+.text_message4{
+	margin-top: 350px;
+	height: 280px;
+}
+.message_title{
+	color: #080808;
+	width: 300px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 30px;
+	
+}
+.message_content{
+	color: #333333;
+	width: 800px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+}
+.name_1 .name_2 .name_3 .name_4{
+	font-size: 20px;
+	color: #5E5E5E;
+}
+.name1_message .name2_message .name3_message .name4_message{
+	font-size: 15px;
+	color: #ADADAD;
+}
+/*界面4*/
+.about_us{
+	font-size: 25px;	
+	color: white;
+}
+.about_us_contont{
+	font-size: 17px;
+	color: #888888;
+}
+.get_in_touch{
+	font-size: 25px;	
+	color: white;
+}
+.get_in_touch_content{
+	font-size: 17px;
+	color: #888888;
+}
+.latest_posts{
+	font-size: 25px;	
+	color: white;
+}
+.recent_works{
+	font-size: 25px;	
+	color: white;
+}
+.img-circle:hover{
+	filter:alpha(Opacity=85);-moz-opacity:0.8;opacity: 0.8;
+	
+}
+.twpic:hover{
+	background: #222222;
+}
+.facebook:hover{
+	background: #222222;
+}
+p{
+	font-size: 17px;
+	color: #888888;
+}
+.facebookimg{
+	width: 30px;
+	height: 30px;
+	margin-top: -50px;
+}
+.emile:hover{
+	color: red;
+	
+}
+.border_progress{
+	width: 0px;
+	height: 1px;
+	background: red;
+	transition:width 2s;
+    -moz-transition: width 5s;
+    -webkit-transition:width 2s;
+}
+.emile:hover .border_progress{
+	width: 200px;
+}
+.latest_t1:hover{
+	color: red;
+}
+.latest_t2:hover{
+	color: red;
+}
+.latest_t3:hover{
+	color: red;
+}
+.message{
+	background: #222222;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}

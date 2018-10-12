@@ -1,0 +1,394 @@
+body {
+	margin: 0px;
+}
+
+
+/***************one1 css start******************/
+
+.one1 {
+	color: white;
+	width: 100%;
+	height: 76px;
+	/*设置绝对布局*/
+	position: absolute;
+	/*显示叠加的效果*/
+	z-index: 1000;
+}
+
+.one1 h2 {
+	float: left;
+	margin-left: 35px;
+}
+
+.sticky {
+	position: fixed;
+	background: #FFFFFF;
+	visibility: hidden;
+	color: #000000;
+	box-shadow: 0 0 10px 1px #000000;
+}
+
+.sticky .one1_ul li a {
+	color: #000000;
+}
+
+.offset {
+	transform: translate(0, -100%);
+	transition: all 0.5s ease-in-out;
+}
+
+.scrolling {
+	visibility: visible;
+	transform: translate(0, 0);
+}
+
+
+/**
+ * 第一层嵌套
+ */
+
+.one1_ul {
+	float: left;
+	list-style: none;
+	margin-left: 400px;
+	margin-top: 20px;
+}
+
+.one1_ul li {
+	float: left;
+	padding: 10px 10px 0px 10px;
+}
+
+.one1_ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+.one1_ul li a:hover {
+	color: red;
+}
+
+
+/**
+ * 第二层嵌套
+ */
+
+.Home_ul {
+	position: absolute;
+	display: none;
+}
+
+.Home_ul_li {
+	opacity: 0;
+	height: 26px;
+
+}
+
+.Home_ul_li1{
+	border-top: 3px solid #e7634d;
+}
+
+.Home_ul li {
+	width: 150px;
+	float: none;
+	list-style: none;
+	background: #ffffff;
+	
+}
+
+.Home_ul li a {
+	color: #000000;
+}
+
+.one1_ul li:hover .Home_ul {
+	display: block;
+}
+
+
+/**
+ * 第三层嵌套
+ */
+
+.servies_ul {
+	position: absolute;
+	display: none;
+	background: white;
+	margin-left: 140px;
+	margin-top: -33px;
+	border-top: 3px solid #e7634d;
+}
+
+.servies_ul li {
+	width: 150px;
+	height: 30px;
+	margin-bottom: 30px;
+}
+
+.Home_ul li:hover .servies_ul {
+	display: block;
+}
+
+.shopping-cart-my {
+	margin-left: 350px;
+	margin-top: 30px;
+	font-size: 1.5em;
+}
+
+.search-my {
+	margin-left: 20px;
+	font-size: 1.5em;
+}
+
+.align-justify-my {
+	margin-left: 20px;
+	font-size: 1.5em;
+}
+
+
+/********************one1 css end***************************/
+
+
+/*****************banner css Start*******************/
+
+.banner {
+	float: left;
+	width: 100%;
+	height: 700px;
+	background-image: url(img/about_us_title_bg.jpg);
+	/*使图片平铺*/
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.banner_large_character {
+	width: 70%;
+	height: 100px;
+	color: white;
+	text-align: center;
+	font-size: 5em;
+	/*设置居中*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 300px;
+}
+
+.banner_large_character1 {
+	width: 70%;
+	height: 100px;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.banner_large_character1_ul {
+	list-style: none;
+	margin-left: 440px;
+}
+
+.banner_large_character1_ul li {
+	float: left;
+	margin-right: 10px;
+}
+
+
+/*********************banner css end*******************************/
+
+
+/*********************wordpress_heme css start*******************************/
+
+.wordpress_heme {
+	float: left;
+	width: 100%;
+	height: 600px;
+}
+
+.wordpress_heme_name {
+	margin-top: 50px;
+}
+
+.name2 {
+	font-size: 1.5em;
+}
+
+.image1 {
+	width: 350px;
+	height: 400px;
+	margin: 70px;
+}
+
+
+/*********************wordpress_heme css end*******************************/
+
+
+/*********************declaratin css statr******************************/
+
+.declaratin {
+	float: left;
+	width: 100%;
+	height: 600px;
+}
+
+.declaratin_lv {
+	position: absolute;
+	width: 100%;
+	height: 80%;
+	background: url(img/quote_mission.jpg);
+	/*使图片固定不动*/
+	background-attachment: fixed;
+	z-index: -1;
+}
+
+.declaratin_text {
+	color: white;
+	font-size: 5em;
+	text-align: center;
+	margin: 150px;
+}
+
+
+/*********************declaratin css end*******************************/
+
+
+/*********************best_time css statr******************************/
+
+.best_time {
+	float: left;
+	width: 100%;
+	height: 600px;
+}
+
+.subheading {
+	margin-top: 50px;
+	font-size: 1.5em;
+}
+
+.image2 {
+	width: 200px;
+	height: 200px;
+	margin-top: 50px;
+}
+
+
+/*********************best_time css end*******************************/
+
+
+/*********************footer css statr******************************/
+
+.footer-widgets {
+	background: #000000;
+	width: 100%;
+	height: 400px;
+	float: left;
+}
+
+.footer-widgets h5 {
+	margin-bottom: 16px;
+	font-size: 20px;
+	color: white;
+	position: relative;
+	margin-top: 50px;
+}
+
+h5 {
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.footer-widgets .bottom-line:before {
+	border-color: #40434a;
+}
+
+.bottom-line:before {
+	content: "";
+	display: block;
+	position: absolute;
+	bottom: 1px;
+	width: 100%;
+	border-bottom: 1px solid #e8ebee;
+}
+
+.bottom-line.left-align:after {
+	margin: 12px auto 24px 0;
+}
+
+.bottom-line:after {
+	content: "";
+	display: block;
+	width: 56px;
+	border-bottom: 2px solid #e7604a;
+	margin: 12px auto 24px;
+	z-index: 1;
+	position: relative;
+}
+
+.mb-0 {
+	margin-bottom: 0!important;
+}
+
+p {
+	font-size: 15px;
+	color: #979ba3;
+	font-weight: normal;
+	line-height: 26px;
+}
+
+.footer-address {
+	margin-bottom: 24px;
+	line-height: 26px;
+	color: #979ba3;
+}
+
+.entry-list ul>li .entry-title {
+	font-size: 14px;
+	margin-bottom: 1px;
+	font-weight: normal;
+	line-height: 1.5;
+	margin-top: 0px;
+}
+
+.footer-widgets a {
+	color: #c2c9cc;
+}
+
+.footer-widgets a:hover {
+	color: red;
+}
+
+.entry-date {
+	color: #848890;
+	font-size: 12px;
+	margin-top: 15px;
+}
+
+.recent-works {
+	margin-top: 29px;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.recent-works li {
+	position: relative;
+	float: left;
+	margin: 0 12px 12px 0;
+	background-color: #191b1f;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	overflow: hidden;
+}
+
+
+/*********************footer css end******************************/
+
+.bottom-footer {
+	background: #1e2023;
+	width: 100%;
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 19px 0;
+}

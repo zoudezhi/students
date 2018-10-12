@@ -1,0 +1,229 @@
+div {
+	display: block;
+}
+
+nav.stick {
+	width: 100%;
+	position: fixed;
+	visibility: hidden;
+	background: #ffffff;
+	box-shadow: 0 0 10px 1px #000000;
+}
+
+nav.stick ul>li {
+	color: #000000;
+	vertical-align: middle;
+	font-size: 16px;
+}
+
+nav.offset {
+	transform: translate(0, -100%);
+	transform: all 0.5s ease-in-out;
+}
+
+nav.scrolling {
+	visibility: visible;
+	transform: translate(0, 0);
+}
+
+
+/*----------------banner css start----------------*/
+
+.banner {
+	width: 100%;
+	height: 600px;
+	background-image: url(../img/revolution/slide_1.jpg);
+	float: left;
+}
+
+.banner_caption {
+	width: 70%;
+	text-align: center;
+	font-size: 4em;
+	font-weight: 600;
+	margin-top: 20%;
+	margin-bottom: -20%;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+}
+
+
+/*----------------banner css end----------------*/
+
+
+/*----------------about-intro css start----------------*/
+
+.about-intro {
+	text-align: center;
+	width: 100%;
+	height: 500px;
+	padding: 90px;
+	float: left;
+}
+
+p.intro-text {
+	font-size: 18px;
+	line-height: 30px;
+	text-align: left;
+	color: gray;
+	overflow: hidden;
+}
+
+.img {
+	width: 100%;
+}
+
+.relative {
+	text-align: center;
+	width: 100%;
+	height: 500px;
+	padding: 90px 0;
+	margin-top: 50px;
+	position: relative;
+	float: left;
+	background-image: url(../img/quote_mission.jpg);
+	background-attachment: fixed;
+}
+
+.relative-div {
+	width: 70%;
+	margin-top: 50px;
+}
+
+.relative-div p {
+	font-size: 80px;
+	color: white;
+	font-family: "french script mt";
+}
+
+.best-h {
+	height: 700px;
+}
+
+.best-hr {
+	width: 50px;
+	border: 0;
+	height: 2px;
+	background: red;
+}
+
+p.best-text {
+	width: 60%;
+	font-size: 24px;
+	color: gray;
+	font-family: "monotype corsiva";
+}
+
+.best-div {
+	width: 100%;
+}
+
+.best-item {
+	height: 350px;
+	margin-left: 20px;
+}
+
+.owl-page {
+	display: inline-block;
+	padding: 5px;
+	position: relative;
+}
+
+.owl-page.active span {
+	display: block;
+	width: 24px;
+	height: 2px;
+	margin: 0;
+	opacity: 1;
+	background: #e7604a;
+}
+
+.owl-page span {
+	display: block;
+	width: 24px;
+	height: 2px;
+	margin: 0;
+	opacity: 1;
+	background-color: #979ba3;
+}
+
+
+/*----------------about-intro css end----------------*/
+
+
+/*----------------footer css start----------------*/
+
+.footer {
+	width: 100%;
+	height: 470px;
+	float: left;
+	padding: 50px;
+	display: block;
+	background: #222;
+}
+
+.footer-widgets {
+	width: 100%;
+	height: 400px;
+	display: block;
+}
+
+.footer-div h5 {
+	font-size: 30px;
+	color: white;
+}
+
+.footer-div p {
+	margin-top: 20px;
+	font-size: 18px;
+	color: gainsboro;
+}
+
+.footer-hr {
+	width: 100%;
+	margin: 0 auto;
+	border: 0;
+	height: 3px;
+	background-image: linear-gradient(to right, rgba(255, 20, 60, 0.75), rgba(0, 0, 0, 0));
+}
+
+.footer-div-latest h6 {
+	margin-top: 20px;
+	font-size: 18px;
+	color: gainsboro;
+}
+
+.footer-div-latest p {
+	margin-top: -10px;
+	font-size: 16px;
+	color: gray;
+	font-family: "monotype corsiva";
+}
+
+.recent-works ul {
+	float: left;
+	margin-left: -20px;
+}
+
+.recent-works li {
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.footer-bottom {
+	width: 100%;
+	height: 70px;
+	float: left;
+	background: #555555;
+}
+
+.footer-bottom p {
+	margin-top: 25px;
+	font-size: 20px;
+	color: #cccccc;
+}
+
+
+/*----------------footer css end----------------*/
