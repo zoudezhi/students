@@ -1,0 +1,391 @@
+body {
+	margin: 0px;
+}
+.header {
+	width: 100%;
+	height: 100px;
+	width: 100%;
+	height: 100px;
+	/*	margin-left: -200px;*/
+	position: absolute;
+	z-index: 100;
+	color: white;
+	padding-top: 10px;
+}
+
+.header_title {
+	margin-top: 15px;
+}
+
+.a {
+	position: absolute;
+	width: 100%;
+	height: 1px;
+	background: white;
+	margin-top: 110px;
+	z-index: 1;
+}
+
+.header h1 {
+	float: left;
+}
+
+.header_ul {
+	padding-left: 300px;
+	float: left;
+	list-style: none;
+	margin-top: 10px;
+}
+
+.home_li:hover .home_ul {
+	display: block;
+}
+
+.pages_li:hover .pages_ul {
+	display: block;
+}
+
+.services_li:hover .services_ul {
+	display: block;
+}
+
+.about_us_li:hover .about_us_ul {
+	display: block;
+}
+
+.contact_li:hover .contact_ul {
+	display: block;
+}
+
+
+/*一级下拉列表*/
+
+.header_ul li {
+	padding: 20px 20px 20px 20px;
+	float: left;
+}
+
+.header_ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+.header_ul li a:hover {
+	color: #FF5809;
+}
+
+.home_ul li a:hover {
+	color: #FF5809;
+}
+
+.pages_ul li a:hover {
+	color: #FF5809;
+}
+
+.services_ul li a:hover {
+	color: #FF5809;
+}
+
+.about_us_ul li a:hover {
+	color: #FF5809;
+}
+
+.contact_ul li a:hover {
+	color: #FF5809;
+}
+
+
+/*home标签*/
+
+.home_ul {
+	width: 250px;
+	margin-top: -5px;
+	margin-left: -100px;
+	position: absolute;
+	list-style: none;
+	display: none;
+	float: none;
+}
+
+.home_ul li {
+	height: 15px;
+	padding-left: 45px;
+	float: none;
+	background-color: white;
+}
+
+#home_li_1 {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.home_ul li a {
+	size: 14px;
+	color: black;
+}
+
+
+/*pages标签*/
+
+.pages_ul {
+	width: 200px;
+	margin-top: -5px;
+	margin-left: -80px;
+	position: absolute;
+	list-style: none;
+	display: none;
+	float: none;
+}
+
+.pages_ul li {
+	height: 15px;
+	padding-left: 40px;
+	float: none;
+	background-color: white;
+}
+
+#ser_li {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.pages_ul li a {
+	size: 14px;
+	color: black;
+}
+
+
+/*pages下services二级标签*/
+
+.services_ul {
+	margin-left: 80px;
+	margin-top: -44px;
+	position: absolute;
+	list-style: none;
+	display: none;
+	float: none;
+}
+
+.services_ul li {
+	height: 15px;
+	padding-left: 5px;
+	float: none;
+	background-color: white;
+}
+
+.services_ul li a {
+	size: 14px;
+	color: black;
+}
+
+
+/*pages下about us二级标签*/
+
+.about_us_ul {
+	margin-left: 80px;
+	margin-top: -44px;
+	position: absolute;
+	list-style: none;
+	display: none;
+	float: none;
+}
+
+.about_us_ul li {
+	height: 20px;
+	padding-left: 5px;
+	float: none;
+	background-color: white;
+}
+
+.about_us_ul li a {
+	size: 14px;
+	color: black;
+}
+
+
+/*pages下contact二级标签*/
+
+.contact_ul {
+	margin-left: 80px;
+	margin-top: -44px;
+	position: absolute;
+	list-style: none;
+	display: none;
+	float: none;
+}
+
+.contact_ul li {
+	height: 20px;
+	padding-left: 5px;
+	float: none;
+	background-color: white;
+}
+
+.contact_ul li a {
+	size: 14px;
+	color: black;
+}
+
+/*图片背景*/
+
+.banner {
+	float: left;
+	width: 100%;
+	height: 800px;
+	background: url(../img/about_us_title_bg.jpg) repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.banner_content {
+	width: 65%;
+	font-size: 5em;
+	color: white;
+	font-weight: 700;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 280px;
+}
+
+.banner_content_small {
+	width: 40%;
+	font-size: 1.5em;
+	color: white;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+}
+
+.container-fluid {
+	float: left;
+	height: 700px;
+}
+
+.row {
+	height: 80%;
+}
+
+.fit_contacts h3 {
+	margin-left: 50px;
+	width: 65%;
+	margin-top: 200px;
+	color: #9D9D9D;
+}
+
+.lead_text {
+	margin-left: 50px;
+	width: 65%;
+	margin-top: 50px;
+	font-size: 1.5em;
+	color: #d0d0d0;
+}
+
+.img1 {
+	margin-top: 180px;
+    width: 30%;
+    height: 60%;
+}
+
+.img2 {
+	margin-top: 180px;
+	margin-left: 30px;
+	width: 30%;
+    height: 60%;
+}
+
+.about_delaration {
+	float: left;
+	width: 100%;
+	height: 500px;
+	background: url(../img/quote_mission.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.dela_text {
+	font-style: italic;
+	text-align: center;
+	font-weight: bold;
+	width: 65%;
+	color: white;
+	font-size: 3.5em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 200px;
+}
+
+.fit_body {
+	width: 100%;
+	height: 800px;
+	float: left;
+}
+
+.about_title {
+	text-align: center;
+	width: 15%;
+	font-size: 2.5em;
+	font-weight: 200;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+
+.about_line {
+	width: 3.5%;
+	height: 2px;
+	background-color: #FF5809;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+.title_fit {
+	width: 50%;
+	font-size: 1.3em;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	font-family: Times New Roman;
+	font-style: oblique;
+	font-weight: 300;
+	color: #ADADAD;
+}
+
+.fit_imgs {
+	width: 100%;
+	height: 60%;
+}
+
+.imgs {
+	margin-top: 80px;
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.img-circle {
+	width: 100%;
+	height: 100%;
+}
+
+.row h4 {
+	color: dimgray;
+	text-align: center;
+	margin-top: 40px;
+	font-size: 20px
+}
+
+.row p {
+	color: darkgray;
+	text-align: center;
+	font-style: italic;
+}
+.about_lines{
+	width: 10%;
+	height: 2px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #000000;
+	margin-top: 50px;
+}
