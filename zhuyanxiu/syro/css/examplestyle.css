@@ -1,0 +1,423 @@
+body {
+	margin: 0px;
+}
+
+
+/*=============Header Css Start=================*/
+
+nav.sticky {
+	position: fixed;
+	width: 100%;
+	height: 90px;
+	background: #ccc;
+	visibility: hidden;
+	box-shadow: 0 0 10px 1px #000000;
+	padding-left: 440px;
+}
+
+nav.sticky ul>li {
+	margin-bottom: 50px;
+	color: black;
+}
+
+nav.offset {
+	transform: translate(0, -100%);
+	transition: all 0.5s ease-in-out;
+}
+
+nav.scrolling {
+	visibility: visible;
+	transform: translate(0, 0);
+}
+
+.navigation {
+	
+}
+
+.header {
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	color: white;
+}
+
+.header h2 {
+	font-weight: 550;
+	margin-top: 30px;
+	float: left;
+	margin-left: 30px;
+	margin-right: 350px;
+}
+
+.header_ul {
+	list-style: none;
+	margin-top: 30px;
+}
+
+.header_ul li {
+	float: left;
+	padding: 5px 30px 5px 5px;
+}
+
+.header_ul li a {
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.header_ul li a:hover {
+	color: yellow;
+}
+
+.home_li:hover .home_ul {
+	display: block;
+}
+
+.home_ul {
+	border-top: 3px solid yellow;
+	margin-top: 36px;
+	width: 100px;
+	position: absolute;
+	background-color: transparent;
+	display: none;
+}
+
+.home_ul li {
+	border-right: 1px solid #ccc;
+	float: none;
+	list-style: none;
+	color: darkgray;
+	font-weight: 300;
+	padding-right: 50px;
+}
+
+.servies_li:hover .servies_ul {
+	display: block;
+}
+
+.servies_ul {
+	background-color: transparent;
+	border-top: 3px solid yellow;
+	position: absolute;
+	background: white;
+	display: none;
+	margin-left: 180px;
+	margin-top: -29px;
+}
+
+.servies_ul li {
+	border-right: 1px solid #ccc;
+	color: darkgray;
+	font-weight: 300;
+	float: none;
+	list-style: none;
+	color: black;
+	padding-right: 50px;
+}
+
+.icon3{
+	position: absolute;
+	margin-top: 37px;
+	margin-left:980px;
+}
+
+.header_bg {
+	width: 100%;
+	height: 1px;
+	margin-top: 64px;
+	border-top: 1px solid #ccc;
+	position: absolute;
+}
+
+.gengduo{
+	position: absolute;
+	width: 35%;
+	height: 800px;
+	background: yellow;
+}
+
+/*=============Header Css End=================*/
+
+
+/*=============Banner Css Start=================*/
+
+.banner {
+	float: left;
+	width: 100%;
+	height: 650px;
+	background: url(../img/about_us_title_bg.jpg) no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.banner_largeText {
+	width: 70%;
+	font-size: 5em;
+	color: white;
+	font-weight: 600;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 280px;
+}
+
+.banner_smallText {
+	width: 70%;
+	font-size: 1.2em;
+	color: white;
+	font-weight: 250;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+
+
+/*=============Banner Css End=================*/
+
+
+/*=============ad Css Start=================*/
+
+.ad {
+	float: left;
+	width: 100%;
+	height: 550px;
+	margin-top: 80px;
+}
+
+.ad_text1 {
+	margin-top: 47px;
+	width: 80%;
+	height: 20%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 2.5em;
+}
+
+.ad_text2 {
+	margin-top: 20px;
+	color: darkgray;
+	width: 80%;
+	height: 60%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1.5em;
+}
+
+.img-fw {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/*=============ad Css End=================*/
+
+
+/*=============declaration Css Start=================*/
+
+.declaration {
+	float: left;
+	width: 100%;
+	height: 500px;
+	background: url(../img/quote_mission.jpg) no-repeat;
+	background-attachment: fixed;
+}
+
+.bgh1 {
+	font-family: segoe script;
+	color: white;
+	font-size: 4.5em;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-weight: 250;
+	margin-top: 170px;
+}
+
+.section-wrap {
+	position: relative;
+	width: 100%;
+	height: 500px;
+}
+
+/*=============declaration Css End=================*/
+
+
+/*=============banner2 Css Start=================*/
+
+.banner2 {
+	float: left;
+	width: 100%;
+	height: 570px;
+	margin-top: 70px;
+}
+
+.banner2_text1 {
+	width: 20%;
+	height: 10%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 2.5em;
+	font-family: "agency fb";
+}
+
+.banner2_text2 {
+	margin-top: 3px;
+	width: 5%;
+	height: 2px;
+	background: red;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.banner2_text3 {
+	color: darkgray;
+	width: 60%;
+	height: 23%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1.6em;
+	font-family: ink free;
+	margin-top: 30px;
+}
+
+.banner2_img {
+	width: 75%;
+	height: 80%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.bimg1 {
+	margin-top: 15px;
+}
+
+.bimg2 {
+	font-family: ink free;
+}
+
+
+/*=============banner2 Css End=================*/
+
+
+/*=============end Css Start=================*/
+
+.end {
+	float: left;
+	width: 100%;
+	height: 500px;
+	background: #191b1f;
+	margin-top: 100px;
+}
+
+.endbg {
+	width: 90%;
+	height: 85%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.endtext1 {
+	margin-top: 80px;
+	color: white;
+}
+
+.xian {
+	margin-top: 20px;
+	width: 80%;
+	height: 2px;
+	border-top: 1px solid #ccc;
+}
+
+.xian1 {
+	position: absolute;
+	width: 20%;
+	height: 2px;
+	background: orange;
+}
+
+.endmessage1 {
+	margin-top: 20px;
+	width: 80%;
+	line-height: 30px;
+}
+
+.endmessage2 {
+	margin-top: 20px;
+	width: 75%;
+	line-height: 30px;
+}
+
+.icon2 {
+	font-size: 15px;
+	margin-top: 15px;
+}
+
+.endmessage3 {
+	width: 100%;
+	margin-top: 20px;
+}
+
+.endmessage3:hover {
+	color: yellow;
+}
+
+.endmessage4 {
+	width: 80%;
+	font-family: ink free;
+}
+
+.xian2 {
+	border-top: 1px solid #ccc;
+	width: 100%;
+}
+
+.icon {
+	width: 80%;
+}
+
+.icon1 {
+	font-size: 20px;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+.icon1:hover {
+	color: yellow;
+}
+
+.finish {
+	height: 15%;
+	width: 100%;
+	background: black;
+}
+
+.finish1 {
+	width: 50%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	line-height: 60px;
+}
+
+.img1 {
+	margin-top: 20px;
+	width: 60px;
+	height: 60px;
+	margin-right: 10px;
+	border-radius: 5px;
+}
+
+.img1:hover {
+	-webkit-filter: grayscale(100);
+}
