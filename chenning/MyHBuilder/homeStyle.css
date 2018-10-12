@@ -1,0 +1,259 @@
+body {
+	margin: 0px;
+}
+
+
+/***************one1 css start******************/
+
+.one1 {
+	color: white;
+	width: 100%;
+	height: 150px;
+	/*设置绝对布局*/
+	position: absolute;
+	/*显示叠加的效果*/
+	z-index: 1000;
+}
+
+.one1 h2 {
+	float: left;
+	margin-left: 35px;
+}
+
+
+/**
+ * 第一层嵌套
+ */
+
+.one1_ul {
+	float: left;
+	list-style: none;
+	margin-left: 350px;
+}
+
+.one1_ul li {
+	float: left;
+	padding: 10px 10px 0px 10px;
+	margin-top: 25px;
+}
+
+.one1_ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+.one1_ul li a:hover {
+	color: red;
+}
+
+
+/**
+ * 第二层嵌套
+ */
+
+.Home_ul {
+	position: absolute;
+	display: none;
+}
+
+.Home_ul li {
+	width: 150px;
+	float: none;
+	list-style: none;
+}
+
+.one1_ul li:hover .Home_ul {
+	display: block;
+}
+
+
+/**
+ * 第三层嵌套
+ */
+
+.servies_ul {
+	position: absolute;
+	display: none;
+}
+
+.servies_ul li {
+	width: 150px;
+	margin-left: 55px;
+	margin-top: -15px;
+}
+
+.Home_ul li:hover .servies_ul {
+	display: block;
+}
+
+.shopping-cart-my {
+	margin-left: 350px;
+	margin-top: 30px;
+	font-size: 1.5em;
+}
+
+.search-my {
+	margin-left: 20px;
+	font-size: 1.5em;
+}
+
+.align-justify-my {
+	margin-left: 20px;
+	font-size: 1.5em;
+}
+
+
+/********************one1 css end***************************/
+
+
+/*****************banner css Start*******************/
+
+.banner {
+	float: left;
+	width: 100%;
+	height: 700px;
+	background-image: url(img/about_us_title_bg.jpg);
+	/*使图片平铺*/
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.banner_large_character {
+	width: 70%;
+	height: 100px;
+	color: white;
+	text-align: center;
+	font-size: 5em;
+	/*设置居中*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 200px;
+}
+
+.banner_large_character1 {
+	width: 70%;
+	height: 100px;
+	color: white;
+	text-align: center;
+	font-size: 5em;
+	/*设置居中*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+.banner_large_character2 {
+	width: 70%;
+	height: 100px;
+	color: white;
+	text-align: center;
+	font-size: 1.5em;
+	/*设置居中*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+
+/*********************banner css end*******************************/
+
+
+/*********************ad css start*******************************/
+
+.ad {
+	width: 100%;
+	height: 500px;
+	background: #fbfcfc;
+	float: left;
+	/*position: absolute;*/
+	z-index: 10001;
+	/*	margin-top: 700px;
+*/
+}
+
+.ad_block {
+	width: 80%;
+	height: 90%;
+	background: #fbfcfc;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ad_block_item {
+	position: relative;
+	top: 0px;
+	/*慢慢弹出效果*/
+	transition: all 0.5s ease-in-out;
+	width: 30%;
+	height: 80%;
+	background: white;
+	/*边框大小和颜色*/
+	border: 1px solid #f1f2f2;
+	float: left;
+	margin: 50px 10px 30px 23px;
+	/*小圆角*/
+	border-radius: 5px;
+}
+
+.ad_block_item:hover {
+	/*阴影状态和深浅*/
+	box-shadow: 0px 10px 10px 5px #cccccc;
+	/*阴影的位置*/
+	top: -5px;
+}
+
+.item1 {
+	/*顶部边框颜色*/
+	border-top: 3px solid #e7634d;
+}
+
+.item2 {
+	border-top: 3px solid #1ebd9e;
+}
+
+.item3 {
+	border-top: 3px solid #7e37d5;
+}
+
+
+/*********************ad css end*******************************/
+
+
+/*********************myname css start******************************/
+
+.myname {
+	float: left;
+	width: 100%;
+	height: 700px;
+}
+
+.myname_image {
+	float: left;
+	width: 55%;
+	height: 80%;
+	background-image: url(img/promo_laptop_1.jpg);
+	background-size: cover;
+	margin-top: 80px;
+}
+
+
+/*********************declaratin css statr******************************/
+
+.declaratin {
+	float: left;
+	width: 100%;
+	height: 400px;
+	background: url(img/testimonials_bg.jpg);
+	/*使图片固定不动*/
+	background-attachment: fixed;
+}
+
+.declaratin_text {
+	color: white;
+	font-size: 2em;
+	text-align: center;
+	margin: 100px 100px 10px 100px;
+}
+
+
+/*********************declaratin css end*******************************/
