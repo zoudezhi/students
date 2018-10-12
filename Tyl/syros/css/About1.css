@@ -1,0 +1,320 @@
+body{
+	margin: 0px;
+}
+/*==============header css start====================*/
+.header{
+	width: 100%;
+	height: 100px;
+	/*float: left;*/
+	position: absolute;
+	z-index: 1000;
+	color: white;
+}
+.header h2{
+	float: left;
+	list-style: none;
+	margin-left: 40px;
+	margin-top: 35px;
+}
+.header_ul{
+	
+	list-style: none;
+	margin-left:35%;
+	margin-top:35px;
+}
+.header_ul li{
+	font-weight: 500;
+	margin-top: 3px;
+	float: left;
+	padding: 5px 5px 10px 20px;
+}
+.home_ul{
+	/*margin-top: 35px;*/
+	display: none;
+	position: absolute;
+	background: #FFFFFF;
+}
+.home_ul li{
+	margin-right: 50px;
+	list-style: none;
+	float: none;
+	font-size: 12px;
+	color:gray;
+}
+.header_ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: 300;
+}
+.home_li:hover .home_ul{
+	display: block;
+}
+.header_ul li a:hover{
+	color: red;
+}
+.hr{
+	width: 100%;
+	height: 0.5px;
+	margin-top: 100px;
+	background: ghostwhite;
+}
+.home_ul_3{
+	width: 90%;
+	background:#FFFFFF;
+	display: none;
+	position: absolute;
+	margin-left: 110px;
+	
+	margin-top: -25px;
+}
+.home_li_2:hover .home_ul_3{
+	display: block;
+}
+/*==============header css end====================*/
+
+/*=============banner css start======================*/
+.banner{
+	float: left;
+	/*position: absolute;*/
+	background: #9c55bb;
+	width: 100%;
+	height: 650px;
+	/*添加背景图片*/
+	background: url(../img/about_us_title_bg.jpg) no-repeat;
+	background-attachment: fixed;
+    background-size: cover;
+}
+
+.banner_large_character{
+	width: 70%;
+	font-size: 5em;
+	color: #FFFFFF;
+	font-weight: 600;
+	text-align: center;
+	margin-left: auto;/*让文字布局居于页面中间*/
+	margin-right: auto;
+	margin-top: 300px;
+}
+.banner_small_character{
+	width: 50%;
+	font-size: 15px;
+	color: #FFFFFF;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+/*============end==============*/
+
+
+/*============FEATURETTES css start===============*/
+.featurette{
+	float: left;
+	width: 100%;
+	height: 300px;
+	margin-top: 100px;
+
+	
+}
+.featurette-heading{
+	width: 90%;
+	font-size: 27px;
+	margin-top: 50px;
+	text-align: left;
+	margin-left: 30px;
+	color: grey;
+	
+}
+.lead{
+	width: 80%;
+	color: gray;
+	margin-top: 20px;
+	margin-left: 30px;
+	font-size:3px;
+	
+}
+.img-fw{
+	
+	margin-top: 50px;
+	width: 100%;
+	margin-left: 180px;
+}
+/*============FEATURETTES css end===============*/
+
+/*=============declaration css start======================*/
+.declaration{
+	float: left;
+	width: 100%;
+	height: 600px;
+	background: url(../img/quote_mission.jpg);
+	background-attachment: fixed;/*让图片固定不动*/
+	background-size: cover;
+	margin-top: 50px;
+	
+}
+.declaration_text{
+	color: white;
+	font-size: 5em;
+	font-style: oblique;
+	width: 85%;
+	text-align: center;
+	margin-top: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/*=============declaration css end======================*/
+
+/*=============title css start======================*/
+/*.title{
+	width: 100%;
+	height: 100px;
+}*/
+
+/*=============introduce css start======================*/
+.introduce{
+	float: left;
+	width: 100%;
+	height:700px ;
+}
+.Topname_large{
+	width: 100%;
+	height: 170px;
+	}
+.Topname_large1{
+	width: 100%;
+	height:100px;
+	text-align: center;
+	margin-top: 80px;
+
+}
+.hr1{
+	width: 60px;
+	height: 2px;
+	margin-top: -40px;
+	background-color: red;
+}
+.subheading{
+	width:50%;
+	text-align: center;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	font-style: oblique;
+	color: grey;
+	font-size: 18px;
+}
+.row{
+	float: left;
+	width: 80%;
+	height: 500px;
+	margin-top: 100px;
+	
+}
+
+
+.img-circle{
+	width: 240px;
+	height: 240px;
+	margin-left: 140px;
+	
+}
+.team-title{
+	margin-top: 30px;
+	width: 150px;
+	text-align: center;
+	margin-left: 190px;
+}
+.team-small-title{
+	width: 150px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-left: 185px;
+}
+
+/*=============introduce css end======================*/
+
+/*=============bottom css start======================*/
+.bottom{
+	float: left;
+	width: 100%;
+	height: 400px;
+	background-color: #000000;
+}
+
+.About_Us{
+	text-align: left;
+	color: #FFFFFF;
+	margin-left: 55px;
+	margin-top: 80px;
+}
+.bottom_titlt_hr{
+	width: 70%;
+	height: 1px;
+	margin-left: 55px;
+	background:#808080;
+}
+.titlt_hr{
+	width: 20%;
+	height: 1px;
+	/*margin-left: 55px;*/
+	
+	background:orangered;
+}
+.About_introduce{
+	width: 70%;
+	text-align: left;
+	color: #808080;
+	margin-left: 55px;
+	font-size: 15px;
+	margin-top: 25px;
+	}
+.icon{
+	margin-top: 10px;
+	margin-left: 40px;
+	margin-top: 15px;
+}
+.icon2{
+
+	margin-top: 10px;
+	margin-left: 50px;
+}
+.pic1{
+	margin-top: 15px;
+	margin-left: 20px;
+}
+.bottom_hr{
+	width: 70%;
+	height: 0.1px;
+	margin-top: 5px;
+	background-color:#808080;
+}
+
+/*=============bottom css finsh======================*/
+
+
+.finsh{
+	float: left;
+	width: 100%;
+	height: 70px;
+	background-color:#000000;
+	text-align: center;
+}
+.finsh_bottom{
+	color: white;
+     margin-top: 10px;
+}
+
+.all_pic{
+	margin-left: 50px;
+	width: 90%;
+	margin-top: 30px;
+}
+.img{
+	border-radius: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
