@@ -1,0 +1,249 @@
+body {
+	margin: 0px;
+}
+
+.one1 {
+	color: white;
+	width: 100%;
+	height: 150px;
+	position: absolute;
+	z-index: 1000;
+}
+
+.one1 h1 {
+	float: left;
+	margin-left: 35px;
+}
+
+
+/*第一层嵌套*/
+
+.one1_ul {
+	float: left;
+	list-style-type: none;
+	margin-left: 350px;
+}
+
+.one1_ul li {
+	/*给字体加粗*/
+	font-weight: bold;
+	float: left;
+	padding: 10px 10px 10px 10px;
+	margin-top: 10px;
+}
+
+.one1_ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+.one1_ul li a:hover {
+	color: red;
+}
+
+
+/*第二层嵌套*/
+
+.Home_ul {
+	position: absolute;
+	display: none;
+}
+
+.Home_ul li {
+	width: 150px;
+	float: none;
+	list-style: none;
+}
+
+.one1_ul li:hover .Home_ul {
+	display: block;
+}
+
+
+/**
+ * 第三层嵌套
+ */
+
+.servies_ul {
+	position: absolute;
+	display: none;
+}
+
+.servies_ul li {
+	width: 150px;
+	margin-left: 55px;
+	margin-top: -15px;
+}
+
+.Home_ul li:hover .servies_ul {
+	display: block;
+}
+
+
+/*==================Banner CSS Start===================================*/
+
+.banner {
+	width: 100%;
+	height: 800px;
+	float: left;
+	background-image: url(../img/revolution/op_slide.jpg);
+	background-size: cover;
+}
+
+.banner_p1 {
+	width: 65%;
+	/*设置居中*/
+	margin-left: auto;
+	margin-right: auto;
+	/*字体加粗*/
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	font-size: 5em;
+	margin-top: 200px;
+}
+
+.banner_p2 {
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	
+}
+
+
+/*==================Banner CSS End===================================*/
+
+
+/*==================Ad CSS Start===================================*/
+
+.ad {
+	width: 100%;
+	height: 450px;
+	background: #fafcfc;
+	float: left;
+}
+
+.ad_block {
+	width: 80%;
+	height: 90%;
+	background: #fafcfc;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.ad_block_item {
+	position: relative;
+	/*滑过之后有慢慢弹出效果*/
+	transition: all 0.5s ease-in-out;
+	top: 0px;
+	width: 30%;
+	height: 80%;
+	float: left;
+	border: 1px solid white;
+	background: #ffffff;
+	margin: 80px 10px 10px 25px;
+}
+
+.ad_block_item:hover {
+	box-shadow: 0px 2px 10px 5px #cccccc;
+	top: -5px;
+}
+
+.item1 {
+	border-top: 3px solid #e7624c;
+	border-radius: 10px;
+}
+
+.item2 {
+	border-top: 3px solid #97e0d2;
+	border-radius: 10px;
+}
+
+.item3 {
+	border-top: 3px solid #7e38d5;
+	border-radius: 10px;
+}
+
+
+/*==================Ad CSS End===================================*/
+
+/*==================CustomNavigation CSS Start===================================*/
+.customNavigation{
+	width: 100%;
+	height: 700px;
+	float: left;
+}
+.customNavigation_img{
+	width: 50%;
+	height: 80%;
+	float: left;
+	background-size: cover;
+	background-image: url(../img/promo_laptop_1.jpg);
+	margin-top: 80px;
+}
+.declaration_text {
+	height: 90%;
+	width: 50%;
+	float: left;	
+	margin-left: auto;
+	margin-right: auto;
+}
+.customNavigation_text_h2{
+	width: 40%;
+	float: left;
+	margin-top: 200px;
+	text-align: center;
+}
+.lead-text{
+	width: 40%;
+	float: left;
+	color: #adb0b7;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 50px;
+}
+.customNavigation_text_p{
+	color: #adb0b7;
+	width: 40%;
+	float: left;
+	font-size: 20px;
+	margin-top: 50px;
+	text-align: center;
+}
+/*==================CustomNavigation CSS End===================================*/
+
+
+
+/*==================Declaration CSS Start===================================*/
+.declaration{
+	width: 100%;
+	float: left;
+	background:url(../img/testimonials_bg.jpg);
+	height: 500px;
+	/*图片贴合，固定在那不动*/
+	background-attachment: fixed;
+}
+.declaration_text{
+	width: 80%;
+	height: 300px;
+	color: white;
+	font-size: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	
+}
+span{
+	width: 100%;
+	height: 100px;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	margin-top: 20px;
+}
+/*==================Declaration CSS End===================================*/
+
