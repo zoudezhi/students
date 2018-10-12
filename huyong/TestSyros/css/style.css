@@ -1,0 +1,466 @@
+body {
+	margin: 0px;
+}
+
+.container{
+	width: 100%;
+	float: left;
+}
+
+
+/*----------------header css start----------------*/
+
+
+/*导航栏*/
+
+.header {
+	width: 100%;
+	height: 100px;
+	color: white;
+	position: absolute;
+	z-index: 400;
+}
+
+.header_p1 {
+	float: left;
+	width: 100px;
+	height: 100%;
+	text-align: center;
+	font-size: 30px;
+	margin-left: 5%;
+}
+
+.logo{
+	margin-top: 20px;
+	text-align: center;
+}
+
+/*一级菜单*/
+
+.header_ul {
+	float: left;
+	list-style: none;
+}
+
+.header_ul li {
+	margin-top: 5%;
+	float: left;
+}
+
+.header_ul li {
+	margin-left: 20px;
+}
+
+.header_ul li a:hover {
+	color: red;
+}
+
+
+/*二级菜单*/
+
+.header_ul_ul {
+	width: 100px;
+	text-align: center;
+	position: absolute;
+	list-style: none;
+	background: white;
+	color: black;
+}
+
+.header_ul_ul li:hover .header_ul li a {
+	color: red;
+}
+
+.header_ul_ul li {
+	margin: 10px 15px 10px -25px;
+	float: none;
+}
+
+
+/*三级菜单*/
+
+.header_ul_ul_ul {
+	width: 100px;
+	text-align: center;
+	position: absolute;
+	margin-left: 125px;
+	margin-top: -31px;
+	list-style: none;
+	background: #eeeeee;
+	color: black;
+}
+
+.header_ul_ul_ul li {
+	margin: 10px 15px 10px -25px;
+	float: none;
+}
+
+
+/*二级菜单home*/
+
+.header_ul_home:hover .header_ul_ul {
+	display: block;
+}
+
+.header_ul_home .header_ul_ul {
+	display: none;
+}
+
+
+/*三级菜单home1*/
+
+.header_ul_home_home1:hover .header_ul_ul_ul {
+	display: block;
+}
+
+.header_ul_home_home1:hover .header_ul_home_home1 li a {
+	color: red;
+}
+
+.header_ul_home_home1 .header_ul_ul_ul {
+	display: none;
+}
+
+
+/*三级菜单home2*/
+
+.header_ul_home_home2:hover .header_ul_ul_ul {
+	display: block;
+}
+
+.header_ul_home_home2 .header_ul_ul_ul {
+	display: none;
+}
+
+
+/*三级菜单home3*/
+
+.header_ul_home_home3:hover .header_ul_ul_ul {
+	display: block;
+}
+
+.header_ul_home_home3 .header_ul_ul_ul {
+	display: none;
+}
+
+
+/*二级菜单pages*/
+
+.header_ul_pages:hover .header_ul_ul {
+	display: block;
+}
+
+.header_ul_pages .header_ul_ul {
+	display: none;
+}
+
+
+/*三级菜单pages1*/
+
+.header_ul_pages_pages1:hover .header_ul_ul_ul {
+	display: block;
+}
+
+.header_ul_pages_pages1 .header_ul_ul_ul {
+	display: none;
+}
+
+
+/*三级菜单pages2*/
+
+.header_ul_pages_pages2:hover .header_ul_ul_ul {
+	display: block;
+}
+
+.header_ul_pages_pages2 .header_ul_ul_ul {
+	display: none;
+}
+
+
+/*三级菜单pages3*/
+
+.header_ul_pages_pages3:hover .header_ul_ul_ul {
+	display: block;
+}
+
+.header_ul_pages_pages3 .header_ul_ul_ul {
+	display: none;
+}
+
+
+/*二级菜单portfollo*/
+
+.header_ul_portfollo:hover .header_ul_ul {
+	display: block;
+}
+
+.header_ul_portfollo .header_ul_ul {
+	display: none;
+}
+
+
+/*三级菜单portfollo1*/
+
+.header_ul_portfollo_portfollo1:hover .header_ul_ul_ul {
+	display: block;
+}
+
+.header_ul_portfollo_portfollo1 .header_ul_ul_ul {
+	display: none;
+}
+
+
+/*三级菜单portfollo2*/
+
+.header_ul_portfollo_portfollo2:hover .header_ul_ul_ul {
+	display: block;
+}
+
+.header_ul_portfollo_portfollo2 .header_ul_ul_ul {
+	display: none;
+}
+
+
+/*三级菜单portfollo3*/
+
+.header_ul_portfollo_portfollo3:hover .header_ul_ul_ul {
+	display: block;
+}
+
+.header_ul_portfollo_portfollo3 .header_ul_ul_ul {
+	display: none;
+}
+
+
+/*二级菜单blog*/
+
+.header_ul_blog:hover .header_ul_ul {
+	display: block;
+}
+
+.header_ul_blog .header_ul_ul {
+	display: none;
+}
+
+
+/*三级菜单blog1*/
+
+.header_ul_blog_blog1:hover .header_ul_ul_ul {
+	display: block;
+}
+
+.header_ul_blog_blog1 .header_ul_ul_ul {
+	display: none;
+}
+
+
+/*三级菜单blog2*/
+
+.header_ul_blog_blog2:hover .header_ul_ul_ul {
+	display: block;
+}
+
+.header_ul_blog_blog2 .header_ul_ul_ul {
+	display: none;
+}
+
+
+/*三级菜单blog3*/
+
+.header_ul_blog_blog3:hover .header_ul_ul_ul {
+	display: block;
+}
+
+.header_ul_blog_blog3 .header_ul_ul_ul {
+	display: none;
+}
+
+
+/*二级菜单shop*/
+
+.header_ul_shop:hover .header_ul_ul {
+	display: block;
+}
+
+.header_ul_shop .header_ul_ul {
+	display: none;
+}
+
+
+/*三级菜单shop1*/
+
+.header_ul_shop_shop1:hover .header_ul_ul_ul {
+	display: block;
+}
+
+.header_ul_shop_shop1 .header_ul_ul_ul {
+	display: none;
+}
+
+
+/*三级菜单shop2*/
+
+.header_ul_shop_shop2:hover .header_ul_ul_ul {
+	display: block;
+}
+
+.header_ul_shop_shop2 .header_ul_ul_ul {
+	display: none;
+}
+
+
+/*三级菜单shop3*/
+
+.header_ul_shop_shop3:hover .header_ul_ul_ul {
+	display: block;
+}
+
+.header_ul_shop_shop3 .header_ul_ul_ul {
+	display: none;
+}
+
+
+/*二级菜单features*/
+
+.header_ul_features:hover .header_ul_ul {
+	display: block;
+}
+
+.header_ul_features .header_ul_ul {
+	display: none;
+}
+
+
+/*三级菜单features1*/
+
+.header_ul_features_features1:hover .header_ul_ul_ul {
+	display: block;
+}
+
+.header_ul_features_features1 .header_ul_ul_ul {
+	display: none;
+}
+
+
+/*三级菜单features2*/
+
+.header_ul_features_features2:hover .header_ul_ul_ul {
+	display: block;
+}
+
+.header_ul_features_features2 .header_ul_ul_ul {
+	display: none;
+}
+
+
+/*三级菜单features3*/
+
+.header_ul_features_features3:hover .header_ul_ul_ul {
+	display: block;
+}
+
+.header_ul_features_features3 .header_ul_ul_ul {
+	display: none;
+}
+
+
+/*----------------header css end----------------*/
+
+
+/*分割线*/
+
+.header_footer {
+	width: 100%;
+	height: 0.1px;
+	background: white;
+}
+
+
+/*----------------banner css start----------------*/
+
+.banner {
+	width: 100%;
+	height: 600px;
+	background-image: url(../img/revolution/slide_1.jpg);
+	float: left;
+}
+
+.banner_caption {
+	width: 70%;
+	text-align: center;
+	font-size: 4em;
+	font-weight: 600;
+	margin-top: 20%;
+	margin-bottom: -20%;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+}
+
+.container_shell {
+	height: 300px;
+	background: #EEEEEE;
+}
+
+.container_row {
+	width: 60%;
+	height: 80%;
+	margin: auto;
+	margin-top: 3%;
+	display: flex;
+}
+
+.container_row_item {
+	position: relative;
+	top: 0px;
+	height: 100%;
+	border: 1px solid #EEEEEE;
+	background: #FFFFFF;
+	float: left;
+	flex: 1;
+	transition: 0.3s ease-in-out;
+}
+
+.container_row_item:hover {
+	box-shadow: 0px 1px 10px 1px #aaaaaa;
+	margin-top: -5px;
+}
+
+.container_row_item1 {
+	border-top: 3px solid blue;
+	border-radius: 5px;
+}
+
+.container_row_item2 {
+	margin-left: 15px;
+	border-top: 3px solid greenyellow;
+	border-radius: 5px;
+}
+
+.container_row_item3 {
+	margin-left: 15px;
+	border-top: 3px solid yellow;
+	border-radius: 5px;
+}
+
+.container_fluid{
+	height: 600px;
+	background: #FFFFFF;
+}
+
+.container_immobilization {
+	width: 100%;
+	height: 400px;
+	float: left;
+	background-image: url(../img/video_section_bg.jpg);
+	background-attachment: fixed;
+}
+
+.container_advertisement{
+	width: 100%;
+	height: 100px;
+	float: left;
+}
+
+
+/*----------------banner css end----------------*/
