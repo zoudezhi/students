@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+		<title>HOME</title>
+		<link rel="stylesheet" type="text/css" href="css/new_file.css" />
+	</head>
+	<body>
+		<!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/stellar.js/0.6.2/jquery.stellar.min.js"></script>
+		<script type="text/javascript">    /* Parallax------------------------------------*/   
+		$.stellar({     
+			horizontalScrolling: false,     
+			hideDistantElements: false    
+		   });     
+		$(window).load(function() {      
+			    setTimeout(function() {     
+				      $.stellar('refresh');     
+			    }, 1000);    
+		   });   
+		</script>
+		<script type="text/javascript">
+			$(window).scroll(function() {
+				
+				if($(window).scrollTop() > 190) {
+					$('.navigation').addClass("sticky");
+				} else {
+					$('.navigation').removeClass("sticky");
+				}
+			
+				if($(window).scrollTop() > 200) {
+					$('.navigation').addClass("offset");
+				} else {
+					$('.navigation').removeClass("offset");
+				}
+			
+				if($(window).scrollTop() > 500) {
+					$('.navigation').addClass("scrolling");
+				} else {
+					$('.navigation').removeClass("scrolling");
+				}
+			
+			});
+		</script>
+<div class="header">
+	<nav class="navigation">
+			<h1 id="header_title">SYROS</h1>
+			<ul class="header_ul">
+				<li class="home_li">
+					<a href="">HOME</a>
+					<ul class="home_ul">
+						<li id="home_li_1"></li>
+						<li>
+							<a href="">Home Default</a>
+						</li>
+						<li>
+							<a href="">Home Onepage</a>
+						</li>
+						<li>
+							<a href="">Home Business</a>
+						</li>
+						<li>
+							<a href="">Home Agency</a>
+						</li>
+						<li>
+							<a href="">Home Landing</a>
+						</li>
+						<li>
+							<a href="">Home Shop</a>
+						</li>
+					</ul>
+				</li>
+				<li class="pages_li">
+					<a href="">PAGES</a>
+					<ul class="pages_ul">
+						<li id="ser_li"></li>
+						<li class="services_li">
+							<a href="">Services</a>
+							<ul class="services_ul">
+								<li>
+									<a href="">Services1</a>
+								</li>
+								<li>
+									<a href="">Services2</a>
+								</li>
+							</ul>
+						</li>
+						<li class="about_us_li">
+							<a href="">About Us</a>
+							<ul class="about_us_ul">
+								<li>
+									<a href="">About&nbsp;Us1</a>
+								</li>
+								<li>
+									<a href="">About&nbsp;Us2</a>
+								</li>
+							</ul>
+						</li>
+						<li class="contact_li">
+							<a href="">Contact</a>
+							<ul class="contact_ul">
+								<li>
+									<a href="">Contact1</a>
+								</li>
+								<li>
+									<a href="">Contact2</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="">404</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="">PORTFOLIO</a>
+				</li>
+				<li>
+					<a href="">BLOG</a>
+				</li>
+				<li>
+					<a href="">SHOP</a>
+				</li>
+				<li>
+					<a href="">FEATURES</a>
+				</li>
+			</ul>
+		</nav>
+		</div>
+
+		<div class="banner">
+			<div class="banner_content">
+				About Us
+			</div>
+			<div class="banner_content_small">
+				Home/Pages/About Us
+			</div>
+		</div>
+
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-6 col-lg-6">
+					<div class="fit_contacts">
+						<h3>Syros is the Next Level WordPress Theme. Elegant and Unique Solution.</h3>
+						<p class="lead_text">
+							Syros is a responsive and elegant template with tons of features. Lorem ipsum dolor sit amet, consectetur. Grab this perfect solution. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip awesome. Syros is a responsive and elegant template with tons of features. Get it today.
+						</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-lg-3 about_img1">
+					<div class="img1">
+						<img style="margin-bottom: -30px;" src="img/about_1.jpg"/ >
+
+					</div>
+				</div>
+				<div class="col-md-3 col-lg-3 about_img2">
+					<div class="img2">
+						<img src="img/about_2.jpg"/>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="about_delaration">
+			<div class="dela_text">
+				It's not just about ideas. It's about making ideas happen
+			</div>
+		</div>
+		<div class="fit_body">
+			<div class="fit_body_title">
+				<div class="about_title">
+					BEST TEAM
+				</div>
+				<div class="about_line">
+
+				</div>
+				<p class="title_fit">
+					We possess within us two minds. So far I have written only of the conscious mind. I would now like to introduce you to your second mind.
+				</p>
+			</div>
+			<div class="fit_imgs">
+				<div class="imgs">
+					<div class="row">
+						<div class="col-lg-3">
+							<img src="img/team_1.jpg" class="img-circle" />
+							<h4>Monica Bing</h4>
+							<p>CEO of Company</p>
+						</div>
+						<div class="col-lg-3">
+							<img src="img/team_2.jpg" class="img-circle" />
+							<h4>David Geller</h4>
+							<p>Art Director</p>
+						</div>
+						<div class="col-lg-3">
+							<img src="img/team_3.jpg" class="img-circle" />
+							<h4>Katerine Winslow</h4>
+							<p>HR Manager</p>
+						</div>
+						<div class="col-lg-3">
+							<img src="img/team_4.jpg" class="img-circle" />
+							<h4>Tribbiani</h4>
+							<p>Lead Designer</p>
+						</div>
+					</div>
+				</div>
+	</body>
+
+</html>
